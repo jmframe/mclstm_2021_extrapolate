@@ -1,0 +1,134 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:10:57 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02082950 LITTLE FISHING CREEK NEAR WHITE OAK, NC
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02082950	1960-07-31		3140		16.00						
+USGS	02082950	1961-08-28		2270		13.65						
+USGS	02082950	1962-01-08		3500		16.75						
+USGS	02082950	1963-03-18		1220		9.05						
+USGS	02082950	1964-04-09		2160		12.61						
+USGS	02082950	1965-06-17		2570		14.71	1					
+USGS	02082950	1966-03-01		1440		10.08	1					
+USGS	02082950	1967-08-26		2530		14.52	1					
+USGS	02082950	1968-01-14		2520		13.81						
+USGS	02082950	1969-06-17		1630		11.70						
+USGS	02082950	1970-02-19		1770		12.76	1					
+USGS	02082950	1971-05-31		1780		11.67	1					
+USGS	02082950	1971-10-25		3440		16.55						
+USGS	02082950	1972-10-07		18000		24.80		1919				
+USGS	02082950	1974-08-07		1040		8.44						
+USGS	02082950	1975-07-15		5800		19.40						
+USGS	02082950	1976-09-17		2810		15.15						
+USGS	02082950	1977-03-14		1840		12.27						
+USGS	02082950	1977-11-08		3340		16.27						
+USGS	02082950	1979-02-26		3550		16.64						
+USGS	02082950	1979-11-27		1610		11.25						
+USGS	02082950	1981-06-03		1020		8.66						
+USGS	02082950	1982-07-06		1340		10.19						
+USGS	02082950	1983-03-20		3910		17.23						
+USGS	02082950	1984-05-31		8420		21.27						
+USGS	02082950	1985-02-03		1820		13.05						
+USGS	02082950	1985-11-23		6240		19.77						
+USGS	02082950	1987-04-17		5630		19.19						
+USGS	02082950	1988-02-12		918		8.72						
+USGS	02082950	1989-02-15		2070		13.99						
+USGS	02082950	1990-04-04		2320		13.90						
+USGS	02082950	1991-03-31		1240		9.72						
+USGS	02082950	1992-01-06		2550		14.50						
+USGS	02082950	1993-03-06		3940		17.19						
+USGS	02082950	1994-03-04		3450		16.89						
+USGS	02082950	1995-03-10		3440		16.87						
+USGS	02082950	1996-09-11		2180		13.42						
+USGS	02082950	1997-04-30		2890		15.43						
+USGS	02082950	1998-03-10		4800		18.31						
+USGS	02082950	1999-09-16		31000	9	30.80						
+USGS	02082950	2000-07-25		4870		19.09						
+USGS	02082950	2001-03-31		1680		12.38						
+USGS	02082950	2002-04-02		2390		14.91						
+USGS	02082950	2003-09-20		3960		17.94						
+USGS	02082950	2004-09-01		1760		12.71						
+USGS	02082950	2004-10-21		1940		13.39						
+USGS	02082950	2006-06-15		3000		16.27						
+USGS	02082950	2006-11-18		1800		12.87						
+USGS	02082950	2008-04-20		963		9.17						
+USGS	02082950	2009-03-03		1600		12.07						
+USGS	02082950	2010-02-07		1880		13.19						
+USGS	02082950	2010-10-02		1230		10.45						
+USGS	02082950	2012-08-21		1590		12.00						
+USGS	02082950	2013-06-09		2490		15.15						
+USGS	02082950	2014-09-10		4840		19.05						
+USGS	02082950	2014-12-26		1810		12.80						
+USGS	02082950	2015-10-05		2030		13.53						
+USGS	02082950	2016-10-09		13300		24.72						
+USGS	02082950	2018-05-23	09:30	1470		10.94						
+USGS	02082950	2019-02-25	00:45	3700		17.44						

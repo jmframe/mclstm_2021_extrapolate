@@ -1,0 +1,102 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:19:30 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 10336740 LOGAN HOUSE CK NR GLENBROOK, NV
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	10336740	1984-05-10		3.70		4.50						
+USGS	10336740	1985-04-14		4.00		4.52						
+USGS	10336740	1986-04-22		6.40		4.60						
+USGS	10336740	1987-04-15		2.70		4.38						
+USGS	10336740	1988-04-15		1.20		4.24	2		1987-12-14		4.33	1
+USGS	10336740	1989-04-18		4.10		4.48						
+USGS	10336740	1990-04-14		1.40		4.26	2		1989-12-20		4.32	1
+USGS	10336740	1991-04-23		0.84		4.19	2		1990-12-20		5.49	1
+USGS	10336740	1991-10-26		0.63		4.17						
+USGS	10336740	1993-04-29		4.10		4.47						
+USGS	10336740	1994-04-17		0.84		4.20						
+USGS	10336740	1995-05-31		8.50		4.66						
+USGS	10336740	1996-05-21		7.70		4.63						
+USGS	10336740	1997-01-02		12.0		4.75						
+USGS	10336740	1998-06-12		12.0		4.75						
+USGS	10336740	1999-05-25		8.90		4.67						
+USGS	10336740	2000-05-24		5.90		4.56						
+USGS	10336740	2001-04-25		3.80		4.46						
+USGS	10336740	2002-04-07		4.00		4.47						
+USGS	10336740	2003-05-26		6.70		4.59						
+USGS	10336740	2004-03-31		2.50		4.37						
+USGS	10336740	2005-05-18		6.40		4.58						
+USGS	10336740	2006-05-04		9.30		4.68						
+USGS	10336740	2007-03-17		2.20		4.32						
+USGS	10336740	2008-04-27	17:45	2.10		4.35						
+USGS	10336740	2009-04-20	18:00	0.89		4.21						
+USGS	10336740	2010-05-16	18:00	2.10		4.34						
+USGS	10336740	2011-06-07	17:45	5.30		4.51	2		2011-05-05	2130	4.52	

@@ -1,0 +1,143 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:11:58 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02349900 TURKEY CREEK AT BYROMVILLE, GA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02349900	1951-03-20		150	4	8.80	4					
+USGS	02349900	1952-03-12		474		9.79	3					
+USGS	02349900	1953-05-03		560		10.03	3					
+USGS	02349900	1953-12-14		610		10.12	3					
+USGS	02349900	1955-04-12		150		8.65	3					
+USGS	02349900	1956-03-20		184		8.83	3					
+USGS	02349900	1957-05-00		447	Bd	9.73	3,Bd					
+USGS	02349900	1958-03-11		1680		11.20	3					
+USGS	02349900	1959-03-06		751		10.33						
+USGS	02349900	1960-04-05		2140		11.49						
+USGS	02349900	1961-04-13		624		10.14						
+USGS	02349900	1962-01-07		556		10.02						
+USGS	02349900	1963-07-10		1970		11.38						
+USGS	02349900	1964-02-18		1150		10.80						
+USGS	02349900	1964-12-26		2020		11.41						
+USGS	02349900	1966-03-04		3220		12.26						
+USGS	02349900	1967-01-02		428		9.74						
+USGS	02349900	1968-01-11		58.0		7.40						
+USGS	02349900	1969-05-27		1100		10.78						
+USGS	02349900	1970-03-31		3940		13.30						
+USGS	02349900	1971-03-03		1210		11.06						
+USGS	02349900	1972-01-13		2760		12.54						
+USGS	02349900	1973-02-02		1300		11.17						
+USGS	02349900	1974-04-05		500		9.80						
+USGS	02349900	1975-03-19		1240		11.10						
+USGS	02349900	1976-05-15		2520		12.35						
+USGS	02349900	1977-03-22		1280		10.85						
+USGS	02349900	1978-01-25		2260		12.13						
+USGS	02349900	1979-02-24		2040		11.94						
+USGS	02349900	1980-03-13		938		10.68						
+USGS	02349900	1981-04-01		4820		13.82						
+USGS	02349900	1982-02-17		748		10.49						
+USGS	02349900	1983-02-14		1690		11.65						
+USGS	02349900	1984-08-01		936		10.69						
+USGS	02349900	1985-02-06		1300		11.21						
+USGS	02349900	1985-12-13		222		8.70						
+USGS	02349900	1987-01-22		1010		10.67						
+USGS	02349900	1988-03-04		63.0		7.13						
+USGS	02349900	1989-07-04		717		10.25						
+USGS	02349900	1990-01-08		540		9.80						
+USGS	02349900	1991-03-03		1390		11.31						
+USGS	02349900	1992-02-24		994		10.78						
+USGS	02349900	1993-01-08		1780		11.77						
+USGS	02349900	1994-07-06		5820		14.29						
+USGS	02349900	1995-02-11		1460		11.42						
+USGS	02349900	1996-03-07		731		10.28						
+USGS	02349900	1997-02-22	12:00	1310		11.23						
+USGS	02349900	1998-03-09	01:00	3800		12.78						
+USGS	02349900	1999-07-01	12:00	650		10.09						
+USGS	02349900	2000-03-30	17:30	622		10.02						
+USGS	02349900	2001-03-04	14:30	1250		11.15						
+USGS	02349900	2002-03-03	12:15	141		7.77						
+USGS	02349900	2003-03-21	03:30	459		9.50						
+USGS	02349900	2004-09-27	22:45	2230		12.21						
+USGS	02349900	2005-03-27	22:45	3990		13.40						
+USGS	02349900	2006-05-11	15:15	561		9.82						
+USGS	02349900	2007-03-03	02:00	251		8.61						
+USGS	02349900	2007-12-31	10:45	314		8.93						
+USGS	02349900	2009-09-22	14:00	2260		12.23						
+USGS	02349900	2010-01-30	18:00	1620		11.62						
+USGS	02349900	2011-02-05	13:00	982		10.77						
+USGS	02349900	2012-02-20	03:30	87.0		7.10						
+USGS	02349900	2013-02-26	22:00	925		10.67						
+USGS	02349900	2014-04-19	13:15	920		10.66						
+USGS	02349900	2015-02-26	11:45	1100		10.96						
+USGS	02349900	2016-01-01	07:30	572		9.85						
+USGS	02349900	2017-01-03		507		9.66						
+USGS	02349900	2018-06-12	07:30	300		8.84						
+USGS	02349900	2019-01-24	18:00	976		10.76						

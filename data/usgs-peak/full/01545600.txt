@@ -1,0 +1,129 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:09:18 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01545600 Young Womans Creek near Renovo, PA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01545600	1965-02-10		369					1965-02-10	1200	3.23	1
+USGS	01545600	1966-02-13		534		3.12	2		1966-02-14		3.33	1
+USGS	01545600	1967-03-15		555		3.15						
+USGS	01545600	1968-03-23		520		3.10						
+USGS	01545600	1969-04-23		553		2.98						
+USGS	01545600	1970-04-10		844		3.33						
+USGS	01545600	1970-11-13		722		3.21						
+USGS	01545600	1972-06-23		5370		7.98						
+USGS	01545600	1973-02-02		924		3.72						
+USGS	01545600	1974-04-04		861		3.63						
+USGS	01545600	1975-09-26		3050		6.16						
+USGS	01545600	1976-02-17		672		3.48						
+USGS	01545600	1977-04-03		866		3.76						
+USGS	01545600	1978-05-14		888		3.84						
+USGS	01545600	1979-03-06		1540		4.75						
+USGS	01545600	1979-11-26		1920		5.10						
+USGS	01545600	1981-02-23		1320		4.41						
+USGS	01545600	1982-06-06		1110		4.18						
+USGS	01545600	1983-03-22		415		3.08						
+USGS	01545600	1984-02-14		3100		6.29						
+USGS	01545600	1985-04-01		346		2.95						
+USGS	01545600	1986-03-15		853		3.91						
+USGS	01545600	1986-11-27		629		3.51						
+USGS	01545600	1988-05-19		1120		4.24						
+USGS	01545600	1989-06-21		772		3.67						
+USGS	01545600	1990-07-12		316		2.82						
+USGS	01545600	1990-10-13		544		3.28						
+USGS	01545600	1992-07-15		890		3.85						
+USGS	01545600	1993-04-01		1420		4.55						
+USGS	01545600	1994-08-18		3890		6.92						
+USGS	01545600	1995-01-20		996		4.02						
+USGS	01545600	1996-01-19		2340		5.55						
+USGS	01545600	1996-11-08		2320		5.53						
+USGS	01545600	1998-01-08		900		3.87						
+USGS	01545600	1999-01-24		757		3.65						
+USGS	01545600	2000-04-04		562		3.33						
+USGS	01545600	2001-04-09		325		2.87						
+USGS	01545600	2002-05-14		604		3.49						
+USGS	01545600	2003-03-21		829		3.88						
+USGS	01545600	2004-09-18		3110		6.49						
+USGS	01545600	2005-04-03		933		4.03						
+USGS	01545600	2005-11-30		939		4.04						
+USGS	01545600	2007-03-15		759		3.74						
+USGS	01545600	2008-02-07		527	2	3.32						
+USGS	01545600	2009-03-09		765		3.75						
+USGS	01545600	2010-01-25		903		3.98						
+USGS	01545600	2010-12-01		2120		5.58						
+USGS	01545600	2011-12-24		330		2.82						
+USGS	01545600	2013-01-31		765		3.67						
+USGS	01545600	2014-05-16	11:45	1950		5.67						
+USGS	01545600	2015-04-10	18:45	734		3.90						
+USGS	01545600	2015-11-11		411		3.15						
+USGS	01545600	2017-05-06		862		4.15						
+USGS	01545600	2018-09-11	02:15	1300		4.90						
+USGS	01545600	2019-06-21	10:30	764		3.96						

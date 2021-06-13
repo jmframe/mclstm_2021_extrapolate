@@ -1,0 +1,131 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:09:38 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01613050 Tonoloway Creek near Needmore, PA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01613050	1963-03-06		590		4.75						
+USGS	01613050	1964-04-21		317		4.18						
+USGS	01613050	1965-03-05		668		4.88	2		1965-02-07		5.18	1
+USGS	01613050	1966-02-13		326		5.44	2		1966-02-13	1200	5.54	1
+USGS	01613050	1967-03-07		254		5.10						
+USGS	01613050	1968-06-11		128		4.35						
+USGS	01613050	1969-09-07		282		5.24						
+USGS	01613050	1970-04-02		551		6.30						
+USGS	01613050	1970-11-12		685		6.81	2					
+USGS	01613050	1972-06-22		1300		9.17						
+USGS	01613050	1973-02-02		302		5.13						
+USGS	01613050	1973-10-29		277		5.30						
+USGS	01613050	1975-04-25		415		5.98						
+USGS	01613050	1976-09-30		312		5.48						
+USGS	01613050	1976-10-09		417		5.99						
+USGS	01613050	1978-01-26		858		7.76						
+USGS	01613050	1979-02-24		426		5.73	2		1979-01-24		5.87	1
+USGS	01613050	1979-11-26		214		4.63						
+USGS	01613050	1981-04-12		300		5.10	2	1981	1981-02-20		6.38	1
+USGS	01613050	1982-02-03		168		4.36						
+USGS	01613050	1983-05-23		158		4.30						
+USGS	01613050	1984-02-14		867		7.64						
+USGS	01613050	1984-11-28		261		4.89						
+USGS	01613050	1986-03-15		415		5.89						
+USGS	01613050	1987-04-04		313		5.42						
+USGS	01613050	1988-05-23		969		8.19						
+USGS	01613050	1989-06-21		536		6.38						
+USGS	01613050	1990-01-29		107		4.38	2		1990-01-05		4.49	1
+USGS	01613050	1990-10-23		445		5.93						
+USGS	01613050	1992-03-27		132		4.53	2		1992-07-26		4.56	1
+USGS	01613050	1993-04-16		742		8.43	1					
+USGS	01613050	1993-11-28		700	2	8.40	5					
+USGS	01613050	1995-06-27		649		6.63						
+USGS	01613050	1996-01-19		1250		9.48						
+USGS	01613050	1996-10-19		346		5.55						
+USGS	01613050	1997-11-08		745		7.30						
+USGS	01613050	1999-03-03		259		5.13						
+USGS	01613050	2000-04-22		285		5.25						
+USGS	01613050	2001-04-09		109		4.47						
+USGS	01613050	2002-03-20		146		4.65						
+USGS	01613050	2003-09-27		553		6.49						
+USGS	01613050	2004-09-18		4280		11.94						
+USGS	01613050	2005-03-28		578		7.14						
+USGS	01613050	2006-06-26		429		6.51						
+USGS	01613050	2007-03-02		487		6.75	1					
+USGS	01613050	2008-03-05		554		7.04						
+USGS	01613050	2009-05-04		294		5.94						
+USGS	01613050	2010-01-25		433		6.52						
+USGS	01613050	2010-12-01		529		6.94						
+USGS	01613050	2011-12-07		295		6.28						
+USGS	01613050	2012-10-30		345		6.52						
+USGS	01613050	2014-05-16	06:30	184		5.45						
+USGS	01613050	2015-06-28	01:38	520		7.18						
+USGS	01613050	2016-06-05		207		5.67						
+USGS	01613050	2017-05-30		472		7.00						
+USGS	01613050	2018-09-10	08:30	468		6.98						
+USGS	01613050	2018-12-16	03:00	209		5.66						

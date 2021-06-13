@@ -1,0 +1,131 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:17:48 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 08103900 S Fk Rocky Ck nr Briggs, TX
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	08103900	1963-05-18		1180		5.62						
+USGS	08103900	1963-10-24		2260		7.38						
+USGS	08103900	1965-05-16		8430		13.82						
+USGS	08103900	1966-09-09		1320		5.91						
+USGS	08103900	1967-09-16		36.0		2.11						
+USGS	08103900	1968-05-17		7960		13.49						
+USGS	08103900	1969-04-12		7180		12.84						
+USGS	08103900	1970-05-28		5210		11.28						
+USGS	08103900	1971-07-26		1080		5.42						
+USGS	08103900	1972-06-14		2710		8.42						
+USGS	08103900	1973-04-14		4140		10.22						
+USGS	08103900	1974-08-29		8510		13.69						
+USGS	08103900	1974-10-31		4540		10.63						
+USGS	08103900	1976-06-19		31200		22.70						
+USGS	08103900	1977-04-15		3560		9.51						
+USGS	08103900	1978-03-06		13.0		1.73						
+USGS	08103900	1979-07-06		3940		9.94						
+USGS	08103900	1980-05-13		10200		14.72						
+USGS	08103900	1981-06-16		4360		10.38						
+USGS	08103900	1982-05-13		3770		9.75						
+USGS	08103900	1983-03-04		2480		8.00						
+USGS	08103900	1984-06-05		8580		13.80						
+USGS	08103900	1985-03-20		922		5.03						
+USGS	08103900	1986-06-05		5880		11.79						
+USGS	08103900	1987-09-18		1750		6.71						
+USGS	08103900	1988-06-02		343		3.67						
+USGS	08103900	1989-05-17		2050		7.27						
+USGS	08103900	1990-05-03		1000		5.21						
+USGS	08103900	1991-09-23		1200		5.61						
+USGS	08103900	1992-02-11		6140		12.00						
+USGS	08103900	1993-06-26		3610		9.57						
+USGS	08103900	1993-10-19		638		4.40						
+USGS	08103900	1994-10-25		4750		10.78						
+USGS	08103900	1996-08-31		541		4.16						
+USGS	08103900	1997-06-06		3310		9.19						
+USGS	08103900	1998-03-16		9060		14.09						
+USGS	08103900	1998-12-10		1190		5.59						
+USGS	08103900	2000-02-26		87.0		2.56						
+USGS	08103900	2001-08-31		891		4.87						
+USGS	08103900	2001-11-15		12100		16.20						
+USGS	08103900	2003-02-21		1140		5.50						
+USGS	08103900	2004-04-10		787		4.73						
+USGS	08103900	2005-08-10		8680		14.10						
+USGS	08103900	2006-06-24		2570		8.13						
+USGS	08103900	2007-06-27		18600		19.19						
+USGS	08103900	2008-05-14	07:50	1130		5.47						
+USGS	08103900	2009-06-11	22:30	592		4.21						
+USGS	08103900	2009-10-22	02:10	14500		17.28						
+USGS	08103900	2011-05-21	20:40	375		3.73						
+USGS	08103900	2012-03-20	01:35	4270		10.29						
+USGS	08103900	2013-09-20	14:45	533		4.14						
+USGS	08103900	2014-05-27	04:25	35.0		2.07						
+USGS	08103900	2015-05-29	03:05	985		5.17						
+USGS	08103900	2016-06-02	09:20	3070		8.80						
+USGS	08103900	2017-04-02	07:00	1830		6.82						
+USGS	08103900	2018-05-15	20:30	1550		6.30						
+USGS	08103900	2019-05-03	06:25	8130		13.61						

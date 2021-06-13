@@ -1,0 +1,133 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:19:00 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 09505350 DRY BEAVER CREEK NEAR RIMROCK, AZ
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	09505350	1961-07-14		1610		5.40						
+USGS	09505350	1962-02-12		2510		6.86						
+USGS	09505350	1963-08-17		3260		7.88						
+USGS	09505350	1964-03-30		1160		5.05						
+USGS	09505350	1965-01-06		7970		9.07						
+USGS	09505350	1965-11-23		9670		9.69						
+USGS	09505350	1966-12-07		9460		9.62						
+USGS	09505350	1968-02-11		652		4.32						
+USGS	09505350	1969-01-25		10600		9.98						
+USGS	09505350	1970-09-05		26600		14.35						
+USGS	09505350	1971-09-01		537		4.24						
+USGS	09505350	1971-12-26		2740		6.19						
+USGS	09505350	1972-12-28		6160		8.22						
+USGS	09505350	1974-04-03		253		3.68						
+USGS	09505350	1975-04-14		1220		5.08						
+USGS	09505350	1976-02-09		7020		8.64						
+USGS	09505350	1977-04-07		304		3.82						
+USGS	09505350	1978-03-01		8410		9.25						
+USGS	09505350	1978-12-18		24200		12.20						
+USGS	09505350	1980-02-14		18600		12.53						
+USGS	09505350	1981-08-11		1250		5.10						
+USGS	09505350	1982-03-12		7790		8.81						
+USGS	09505350	1982-11-30		8190		8.99						
+USGS	09505350	1983-12-04		5780		7.95						
+USGS	09505350	1984-12-27		4250		7.13						
+USGS	09505350	1985-11-30		4340		7.19						
+USGS	09505350	1987-03-09		1160		4.98						
+USGS	09505350	1988-04-25		2650		6.27						
+USGS	09505350	1989-03-29		404		3.99						
+USGS	09505350	1990-03-18		801		4.57						
+USGS	09505350	1991-03-01		6180		8.23						
+USGS	09505350	1992-03-04		3770		6.98						
+USGS	09505350	1993-01-08		11600		10.01						
+USGS	09505350	1994-04-29		842		4.45						
+USGS	09505350	1995-03-06		20600		13.03						
+USGS	09505350	1996-09-05	05:15	1170		4.72						
+USGS	09505350	1997-01-26	19:15	1740		5.14						
+USGS	09505350	1998-03-28	18:45	2640		5.83						
+USGS	09505350	1999-09-23	16:30	6940		8.24						
+USGS	09505350	2000-08-27	17:45	719		4.23						
+USGS	09505350	2001-03-13	20:15	945		4.47						
+USGS	09505350	2002-09-07	20:00	1210		4.73						
+USGS	09505350	2003-02-13	21:30	4360		7.56						
+USGS	09505350	2004-09-19	14:00	480		3.93						
+USGS	09505350	2004-12-29	11:45	11800		10.66						
+USGS	09505350	2006-08-04	16:45	7190		8.31						
+USGS	09505350	2007-07-31	17:00	670		4.24						
+USGS	09505350	2007-12-07	20:37	9600		9.33						
+USGS	09505350	2009-01-24	12:30	1150		4.83						
+USGS	09505350	2010-01-21	22:30	3990		6.82						
+USGS	09505350	2010-12-23		3030		6.26						
+USGS	09505350	2012-08-24		1450		5.08						
+USGS	09505350	2013-01-26		5690		7.65						
+USGS	09505350	2014-03-01	20:32	3170		6.35						
+USGS	09505350	2015-03-01	14:37	4470		7.07						
+USGS	09505350	2016-01-06	05:00	613		4.12						
+USGS	09505350	2016-12-17	02:52	4830		7.25						
+USGS	09505350	2018-08-18	18:07	627		4.15						
+USGS	09505350	2019-02-14	21:52	13800		10.77						

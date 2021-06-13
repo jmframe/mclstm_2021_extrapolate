@@ -1,0 +1,131 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:21:45 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 14187000 WILEY CREEK NEAR FOSTER, OR
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	14187000	1948-01-07		5410		7.52	3					
+USGS	14187000	1948-12-12		4300		6.72						
+USGS	14187000	1950-01-21		4000		6.89	1					
+USGS	14187000	1950-10-29		3630		6.21						
+USGS	14187000	1951-12-04		2060		4.82						
+USGS	14187000	1953-01-18		4320		7.80	1					
+USGS	14187000	1953-11-22		5200		7.37						
+USGS	14187000	1954-12-30		2310		5.01						
+USGS	14187000	1955-12-21		6290		8.42	1					
+USGS	14187000	1957-02-26		3190		5.52						
+USGS	14187000	1957-12-20		4820		7.77	1					
+USGS	14187000	1958-11-19		2770		4.83						
+USGS	14187000	1960-02-08		1650		3.88						
+USGS	14187000	1961-02-10		6860		7.54						
+USGS	14187000	1961-11-23		2660		4.51						
+USGS	14187000	1963-03-30	12:30	2300		4.21						
+USGS	14187000	1964-01-19		3480		5.16						
+USGS	14187000	1964-12-22		8370		8.00	2,5		1964-12-21	1930	9.80	1
+USGS	14187000	1966-01-06		4460		7.40						
+USGS	14187000	1967-01-28		1890		5.12						
+USGS	14187000	1968-02-23		1530		4.68						
+USGS	14187000	1968-12-04		3130		6.32						
+USGS	14187000	1969-12-21		2690		5.92						
+USGS	14187000	1971-01-18		3690		6.79						
+USGS	14187000	1972-01-21		9640		9.28						
+USGS	14187000	1972-12-23		1340		4.51	3,6					
+USGS	14187000	1989-01-09		4470		7.54						
+USGS	14187000	1990-04-27		3600		6.84						
+USGS	14187000	1991-01-12		1300		4.50						
+USGS	14187000	1991-11-26		1710		5.01	2		1991-11-26	1200	5.13	
+USGS	14187000	1993-01-20		1610		4.89						
+USGS	14187000	1994-02-24		1500		4.76						
+USGS	14187000	1995-01-13		3120		6.42						
+USGS	14187000	1996-02-07	12:30	7790		10.59						
+USGS	14187000	1996-11-19	06:00	5390		8.79						
+USGS	14187000	1998-01-14	21:30	1490		4.82						
+USGS	14187000	1998-12-28	06:00	3650		7.23						
+USGS	14187000	1999-11-26	05:30	3580		7.16						
+USGS	14187000	2001-03-27	22:30	658		3.67						
+USGS	14187000	2001-12-13	22:30	2300		5.82						
+USGS	14187000	2003-02-01	01:30	1780		5.20						
+USGS	14187000	2003-12-13	16:00	3720		7.30						
+USGS	14187000	2005-03-27	15:00	1820		5.25						
+USGS	14187000	2005-12-31	01:51	3530		7.11						
+USGS	14187000	2007-01-03	14:50	2080		5.50						
+USGS	14187000	2007-12-24	01:51	1860		5.22						
+USGS	14187000	2009-01-02	05:00	2890		6.45						
+USGS	14187000	2010-03-29	17:45	1740		5.05						
+USGS	14187000	2011-01-16	15:45	2920		6.48						
+USGS	14187000	2012-01-19	13:30	3990		7.55						
+USGS	14187000	2012-11-20	07:45	3220		6.80						
+USGS	14187000	2014-02-14	09:15	2390		5.88						
+USGS	14187000	2014-12-21	09:15	2480		5.99						
+USGS	14187000	2015-12-18	06:30	2940		6.37						
+USGS	14187000	2017-03-09	15:45	2760		6.16						
+USGS	14187000	2017-10-22	10:45	2520		5.87						
+USGS	14187000	2019-04-08	16:46	3590	2							

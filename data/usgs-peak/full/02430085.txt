@@ -1,0 +1,119 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:12:17 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02430085 RED BUD CREEK NR MOORES MILL, MS
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02430085	1975-07-23		287		7.99						
+USGS	02430085	1976-02-18		524		10.39						
+USGS	02430085	1977-03-04		986		11.16						
+USGS	02430085	1978-05-08		890		10.90						
+USGS	02430085	1979-01-01		831		10.87						
+USGS	02430085	1980-03-20		749		10.67						
+USGS	02430085	1981-03-30		421		9.26						
+USGS	02430085	1982-01-23		813		10.83						
+USGS	02430085	1983-05-19		1430		11.83						
+USGS	02430085	1983-12-03		1690		12.25						
+USGS	02430085	1985-02-11		657		10.54						
+USGS	02430085	1986-06-11		669		10.58						
+USGS	02430085	1986-11-23		1120		11.55						
+USGS	02430085	1987-12-24		584		10.22						
+USGS	02430085	1989-03-05		1370		12.46						
+USGS	02430085	1990-02-03		1210		12.23						
+USGS	02430085	1991-05-26		2330		13.13						
+USGS	02430085	1991-12-01		2130		12.92						
+USGS	02430085	1993-05-03		854		11.11						
+USGS	02430085	1994-02-10		1200		11.72						
+USGS	02430085	1995-03-07		1040		11.56						
+USGS	02430085	1996-08-12		843		11.20						
+USGS	02430085	1996-11-30		740		10.98						
+USGS	02430085	1997-10-25		894		11.30						
+USGS	02430085	1999-01-23		889		11.29						
+USGS	02430085	2000-04-03		952		11.13						
+USGS	02430085	2001-04-03		912		11.33						
+USGS	02430085	2002-05-04		907		11.32						
+USGS	02430085	2003-08-05		850		11.21						
+USGS	02430085	2004-08-25		2220		13.00						
+USGS	02430085	2004-12-06		1130		11.70						
+USGS	02430085	2006-01-23		939		11.38						
+USGS	02430085	2006-12-31		527		10.42						
+USGS	02430085	2008-05-11		383		9.38						
+USGS	02430085	2009-03-26		983		11.46						
+USGS	02430085	2010-05-02	21:00	939		11.38						
+USGS	02430085	2011-04-27	13:00	1650		12.39						
+USGS	02430085	2011-12-22	14:00	1010		11.50						
+USGS	02430085	2013-01-12	11:45	1420		12.12						
+USGS	02430085	2014-07-18	21:45	972		11.44						
+USGS	02430085	2014-10-13	05:45	1150		11.74						
+USGS	02430085	2015-12-28	14:30	995		11.48						
+USGS	02430085	2017-04-03	08:45	525		10.41						
+USGS	02430085	2018-02-10	16:45	1100		11.65						
+USGS	02430085	2019-02-22	06:00	1210		11.82						

@@ -1,0 +1,131 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:11:35 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02235200 BLACKWATER CREEK NEAR CASSIA, FL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02235200	1962-10-06		263		8.19						
+USGS	02235200	1964-09-13		506		9.06						
+USGS	02235200	1965-08-11		265		8.20						
+USGS	02235200	1966-08-15		291		8.33						
+USGS	02235200	1967-08-30		216		7.93						
+USGS	02235200	1968-09-01		749		9.93						
+USGS	02235200	1968-10-22		555		9.28						
+USGS	02235200	1969-10-05		422		8.75						
+USGS	02235200	1971-02-10		240		7.90						
+USGS	02235200	1972-04-02		276		8.08						
+USGS	02235200	1973-09-16		216		7.74						
+USGS	02235200	1974-09-07		342		8.41						
+USGS	02235200	1975-09-01		296		8.18						
+USGS	02235200	1976-06-06		324		8.32						
+USGS	02235200	1977-00-00		155	4,Bm	7.33	Bm					
+USGS	02235200	1978-08-08		385		8.60						
+USGS	02235200	1979-09-29		605		9.45						
+USGS	02235200	1980-04-04		188		7.55						
+USGS	02235200	1981-09-18		56.0		6.31						
+USGS	02235200	1982-04-12		396		8.89						
+USGS	02235200	1983-04-24		281		8.22						
+USGS	02235200	1984-04-11		214	2	7.67	5					
+USGS	02235200	1985-09-21		393		8.50						
+USGS	02235200	1986-01-14		290		8.02						
+USGS	02235200	1987-04-01		460		8.82						
+USGS	02235200	1988-09-11		248		8.02						
+USGS	02235200	1989-01-24		77.0		6.76						
+USGS	02235200	1990-02-27		56.0		6.28						
+USGS	02235200	1991-06-02		215		7.80						
+USGS	02235200	1991-10-08		54.0		6.26						
+USGS	02235200	1993-03-27		160		7.43						
+USGS	02235200	1994-09-12		337		8.37						
+USGS	02235200	1994-11-18		613		8.91						
+USGS	02235200	1995-10-12		390		8.22						
+USGS	02235200	1996-10-12		233		7.60						
+USGS	02235200	1998-02-21		428		8.33						
+USGS	02235200	1998-10-05		174		7.27						
+USGS	02235200	1999-10-08		135		7.01						
+USGS	02235200	2001-09-17		783		9.17						
+USGS	02235200	2002-08-16		191		7.46						
+USGS	02235200	2003-03-10		314		7.85						
+USGS	02235200	2004-09-13		570		9.43						
+USGS	02235200	2004-10-01		835		9.67						
+USGS	02235200	2005-10-25		267		8.07						
+USGS	02235200	2007-07-21		18.0		5.87						
+USGS	02235200	2008-08-26		811		10.13						
+USGS	02235200	2009-05-26		738		9.23						
+USGS	02235200	2010-03-16		225		7.86						
+USGS	02235200	2011-04-07		95.0		6.94						
+USGS	02235200	2012-08-30		119		7.29						
+USGS	02235200	2012-10-08		237		7.90						
+USGS	02235200	2014-07-31		178		7.67						
+USGS	02235200	2015-09-20		255		8.18						
+USGS	02235200	2016-02-06		268		8.02						
+USGS	02235200	2017-09-12		664		9.01						
+USGS	02235200	2018-07-06	08:30	296		8.11						
+USGS	02235200	2019-08-17		168	2							

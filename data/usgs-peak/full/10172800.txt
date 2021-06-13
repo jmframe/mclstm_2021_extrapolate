@@ -1,0 +1,133 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:19:11 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 10172800 SOUTH WILLOW CREEK NEAR GRANTSVILLE, UT
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	10172800	1961-09-28		2.00		9.96	3					
+USGS	10172800	1962-07-12		10.0		10.25	3					
+USGS	10172800	1963-06-10		11.0		10.30	3,6					
+USGS	10172800	1964-06-08		92.0		2.27						
+USGS	10172800	1965-06-08		41.0		1.54						
+USGS	10172800	1966-05-19		10.0	1							
+USGS	10172800	1967-05-26		29.0		1.90						
+USGS	10172800	1968-06-05		28.0		1.87						
+USGS	10172800	1969-05-28		35.0		1.88						
+USGS	10172800	1970-06-10		41.0		1.96						
+USGS	10172800	1971-06-10		36.0		1.98	2		1971-06-20		2.02	
+USGS	10172800	1972-06-03		29.0		1.96						
+USGS	10172800	1973-05-20		81.0		2.26						
+USGS	10172800	1974-05-29		28.0		1.96						
+USGS	10172800	1975-07-12		56.0		2.12						
+USGS	10172800	1976-05-21		23.0		1.91						
+USGS	10172800	1977-06-06		11.0		1.67						
+USGS	10172800	1978-06-16		55.0		2.13						
+USGS	10172800	1979-05-28		41.0		2.02						
+USGS	10172800	1980-06-10		55.0		2.11						
+USGS	10172800	1981-05-30		22.0		1.78						
+USGS	10172800	1982-05-28		45.0		2.02						
+USGS	10172800	1983-05-29		80.0	1							
+USGS	10172800	1984-06-01		84.0	1							
+USGS	10172800	1985-05-11		24.0		1.70						
+USGS	10172800	1986-06-01		79.0		1.79						
+USGS	10172800	1987-05-02		27.0	1							
+USGS	10172800	1988-05-18		12.0		1.43						
+USGS	10172800	1989-05-10		17.0		1.58						
+USGS	10172800	1990-06-11		16.0		1.50						
+USGS	10172800	1991-06-08		36.0	1							
+USGS	10172800	1992-05-09		12.0		1.45						
+USGS	10172800	1993-05-26		41.0	2	1.65						
+USGS	10172800	1994-05-13		16.0		1.54						
+USGS	10172800	1995-06-05		87.0		1.99						
+USGS	10172800	1996-06-07		37.0		1.73						
+USGS	10172800	1997-05-18		56.0		1.80						
+USGS	10172800	1998-07-24		118		2.45						
+USGS	10172800	1999-06-16		54.0		1.85						
+USGS	10172800	2000-05-29		21.0		1.51						
+USGS	10172800	2001-05-15		28.0		1.56						
+USGS	10172800	2002-06-03		31.0		1.58						
+USGS	10172800	2003-05-26		26.0		1.55						
+USGS	10172800	2004-06-06		20.0		1.52						
+USGS	10172800	2005-06-23		83.0		2.02						
+USGS	10172800	2006-05-17		58.0		1.72						
+USGS	10172800	2007-05-24		14.0		1.53						
+USGS	10172800	2008-05-21		24.0		1.67						
+USGS	10172800	2009-05-21		29.0		1.78						
+USGS	10172800	2010-06-10		57.0		1.68						
+USGS	10172800	2011-06-29		82.0		2.08						
+USGS	10172800	2012-05-18		13.0		1.62						
+USGS	10172800	2013-09-11		61.0		2.00						
+USGS	10172800	2014-05-29		21.0		1.75						
+USGS	10172800	2015-05-09		26.0		1.78						
+USGS	10172800	2016-06-08		30.0		1.79						
+USGS	10172800	2017-05-13		44.3		1.87	5					
+USGS	10172800	2018-04-28	16:00	10.3		1.60	2		2018-05-14	1700	1.61	
+USGS	10172800	2019-06-08	10:45	56.5	2				2019-06-17	0015	1.90	

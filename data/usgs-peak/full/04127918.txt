@@ -1,0 +1,113 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:14:08 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 04127918 PINE RIVER AT MACKINAC TRAIL NEAR RUDYARD, MI
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	04127918	1973-04-21		2280		10.61	2		1973-03-20		15.74	1
+USGS	04127918	1974-06-10		3560		15.53	2		1974-04-17		15.87	1
+USGS	04127918	1975-06-18		4190		17.62						
+USGS	04127918	1976-04-03		3150		14.17	2		1976-03-30		16.81	1
+USGS	04127918	1977-04-13		2090		10.43	2		1977-03-30		17.43	1
+USGS	04127918	1978-05-14		2370		11.49	2		1978-04-18		11.86	1
+USGS	04127918	1979-04-26		3040		13.79						
+USGS	04127918	1980-04-09		3910		16.69						
+USGS	04127918	1981-04-04		2600		12.35						
+USGS	04127918	1982-04-24		2460		11.87	2		1982-04-17		12.90	1
+USGS	04127918	1983-04-14		2380		11.56						
+USGS	04127918	1984-09-13		1690		8.53	2		1983-12-12		10.50	1
+USGS	04127918	1985-04-21		4320		18.08						
+USGS	04127918	1986-03-30		4500		18.44						
+USGS	04127918	1987-03-24		1580		8.37						
+USGS	04127918	1988-04-06		3890		15.79	2		1988-04-05		16.92	1
+USGS	04127918	1988-11-06		4200		16.20						
+USGS	04127918	1990-05-17		1490		7.58	2		1990-03-16		7.75	1
+USGS	04127918	1991-04-15		2740		12.52	2		1991-01-01		14.32	1
+USGS	04127918	1992-04-22		2510		11.87	2		1992-01-01		14.24	
+USGS	04127918	1992-11-21		2270		11.04	2					
+USGS	04127918	1994-04-13		2760		12.74						
+USGS	04127918	1995-04-28		1700		8.92	2		1995-03-15		10.97	1
+USGS	04127918	1996-09-27		2840		13.04						
+USGS	04127918	1997-04-16		2460		11.72	2		1997-04-07		14.38	1
+USGS	04127918	1998-04-01		2200		10.79						
+USGS	04127918	1999-06-02		2490		11.80	2		1999-03-29		11.97	1
+USGS	04127918	2000-03-09		1450		8.00	2		2000-02-27		11.44	1
+USGS	04127918	2001-04-12		3450		14.69	2		2001-04-12	1200	14.87	
+USGS	04127918	2001-10-14		2540		12.03						
+USGS	04127918	2003-04-20		1950		9.91	2		2003-03-29		11.65	1
+USGS	04127918	2003-11-23		2040		10.23	2		2004-03-29		19.34	1
+USGS	04127918	2005-04-07		2360		11.38	2		2005-04-01		13.19	1
+USGS	04127918	2006-03-31		1700	2	11.87	1					
+USGS	04127918	2006-12-13		2180		10.52	2		2007-03-26		11.52	1
+USGS	04127918	2008-04-17	09:45	1680		8.46	2		2008-04-09	0200	18.41	1
+USGS	04127918	2009-04-22	01:00	1310	2	7.39	2,5		2009-04-03		10.11	1,5
+USGS	04127918	2010-09-24		4530		17.75						
+USGS	04127918	2011-04-10		2670		12.18						

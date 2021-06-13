@@ -1,0 +1,105 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:10:59 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02096846 CANE CREEK NEAR ORANGE GROVE, NC
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02096846	1989-07-16		864		6.04						
+USGS	02096846	1990-05-04		421		4.66						
+USGS	02096846	1991-09-24		516		5.01						
+USGS	02096846	1992-06-26		433		4.69						
+USGS	02096846	1993-03-04		1740		6.39						
+USGS	02096846	1994-03-27		725		5.17						
+USGS	02096846	1995-06-29		1280		5.88						
+USGS	02096846	1996-09-06		2060		7.90						
+USGS	02096846	1997-04-28		458		4.59						
+USGS	02096846	1998-02-17		1110		6.15						
+USGS	02096846	1999-09-16		689		5.20						
+USGS	02096846	2000-07-24		903		5.50						
+USGS	02096846	2001-03-29		608		4.66						
+USGS	02096846	2002-01-23		117		2.79						
+USGS	02096846	2003-04-10		990		5.73						
+USGS	02096846	2004-08-30		599		4.63						
+USGS	02096846	2005-01-14		388		3.93						
+USGS	02096846	2006-09-25		356		3.83						
+USGS	02096846	2007-03-02		644		4.77						
+USGS	02096846	2008-09-06		978		5.70						
+USGS	02096846	2009-03-01		407		4.00						
+USGS	02096846	2010-02-05		696		4.92						
+USGS	02096846	2011-07-08		225		3.56						
+USGS	02096846	2012-05-05		384		4.28						
+USGS	02096846	2013-07-03		718		5.35						
+USGS	02096846	2014-05-16		458		4.80						
+USGS	02096846	2015-04-19		416		4.60						
+USGS	02096846	2015-12-30		819		5.59						
+USGS	02096846	2016-10-08		849		5.67						
+USGS	02096846	2018-09-17	09:45	907	2,9	5.98	2					
+USGS	02096846	2019-04-13	13:15	2050	R							

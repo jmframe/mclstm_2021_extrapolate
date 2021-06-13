@@ -1,0 +1,138 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:18:16 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 08202700 Seco Ck at Rowe Rh nr D'Hanis, TX
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	08202700	1894-08-31				33.00						
+USGS	08202700	1919-09-00				28.00	Bd					
+USGS	08202700	1932-07-02		35800	7	28.20						
+USGS	08202700	1935-05-31				35.70						
+USGS	08202700	1958-06-17				32.40						
+USGS	08202700	1961-06-18		2940		15.45						
+USGS	08202700	1961-10-01		0.00		6.54						
+USGS	08202700	1962-10-01		0.00		6.54						
+USGS	08202700	1964-09-27		1650		12.62						
+USGS	08202700	1965-09-22		745		10.08						
+USGS	08202700	1965-10-18		2710		15.03						
+USGS	08202700	1967-09-15		5800		15.50						
+USGS	08202700	1968-05-11		6400		16.00						
+USGS	08202700	1969-05-16		3100		13.00						
+USGS	08202700	1969-10-05		1700		11.50						
+USGS	08202700	1971-08-13		25100		23.70						
+USGS	08202700	1972-08-24		25100		23.70						
+USGS	08202700	1973-07-15		30500		26.00						
+USGS	08202700	1974-08-30		143		7.99						
+USGS	08202700	1975-02-02		193		8.43						
+USGS	08202700	1976-05-07		8450		15.70						
+USGS	08202700	1977-05-11		568		9.40						
+USGS	08202700	1978-08-02		8690		15.83						
+USGS	08202700	1979-06-03		24200		23.30						
+USGS	08202700	1980-09-07		12400		17.72						
+USGS	08202700	1981-04-23		13200		18.09						
+USGS	08202700	1981-10-13		440		9.21						
+USGS	08202700	1982-10-01		0.00		6.55						
+USGS	08202700	1983-10-01		0.00		6.55						
+USGS	08202700	1984-12-31		11800		17.43						
+USGS	08202700	1985-10-19		6920		14.88						
+USGS	08202700	1987-05-29		35800		28.20						
+USGS	08202700	1987-10-01		0.00		6.55						
+USGS	08202700	1988-10-01		0.00		6.55						
+USGS	08202700	1990-07-17		3730		12.88						
+USGS	08202700	1991-09-15		3650		12.82						
+USGS	08202700	1991-12-21		8430		15.69						
+USGS	08202700	1993-05-05		12600		17.80						
+USGS	08202700	1993-10-01		0.00		7.35						
+USGS	08202700	1995-09-20		52.0		8.23						
+USGS	08202700	1995-10-01		0.00		7.35						
+USGS	08202700	1997-06-22		51400		30.62						
+USGS	08202700	1998-08-23		19200		20.80						
+USGS	08202700	1998-10-18		26800		23.56						
+USGS	08202700	1999-10-01		0.00		7.10						
+USGS	08202700	2000-10-17		3510		12.64						
+USGS	08202700	2002-07-05		15300		19.13						
+USGS	08202700	2003-07-05		2180		11.67						
+USGS	08202700	2004-06-30		43900		28.66						
+USGS	08202700	2005-09-11	10:15	1320		10.83						
+USGS	08202700	2005-10-01		0.00		7.10						
+USGS	08202700	2007-07-21	08:15	52200		32.64						
+USGS	08202700	2007-10-01		0.00		6.53						
+USGS	08202700	2008-10-01		0.00		5.16						
+USGS	08202700	2010-04-16	00:15	7710		16.53						
+USGS	08202700	2010-10-01		0.00		4.98	2		2011-08-12	0345	5.08	
+USGS	08202700	2011-10-01		0.00		4.97						
+USGS	08202700	2013-04-27	21:30	0.00		5.18						
+USGS	08202700	2014-05-26	14:45	13500		19.70						
+USGS	08202700	2015-05-24	00:30	19500		22.39						
+USGS	08202700	2016-05-19	07:15	8660		17.11						
+USGS	08202700	2016-10-01		0.00								
+USGS	08202700	2018-09-09	15:15	1520		11.14						
+USGS	08202700	2018-10-01		0.00		6.44						

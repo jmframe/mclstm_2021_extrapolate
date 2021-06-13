@@ -1,0 +1,113 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:17:32 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 08023080 Bayou Grand Cane near Stanley, LA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	08023080	1981-06-06		2440		11.82						
+USGS	08023080	1982-04-18		1530		11.14						
+USGS	08023080	1982-12-15		4070		12.98						
+USGS	08023080	1984-02-13		2790		12.14						
+USGS	08023080	1985-03-21		2790		12.14						
+USGS	08023080	1986-06-28		3200		12.40						
+USGS	08023080	1987-02-21		3780		12.80						
+USGS	08023080	1988-04-03		1930		11.49						
+USGS	08023080	1989-05-18		9450		15.37						
+USGS	08023080	1990-06-01		8560		15.03						
+USGS	08023080	1991-04-15		6030		14.09						
+USGS	08023080	1992-06-27		3180		12.70						
+USGS	08023080	1993-04-08		1650		11.46						
+USGS	08023080	1994-02-11		3180		12.70						
+USGS	08023080	1995-03-08		7830		14.73						
+USGS	08023080	1996-08-30		351		8.85						
+USGS	08023080	1997-03-03		8790		15.12						
+USGS	08023080	1998-01-07		5480		13.87						
+USGS	08023080	1999-01-29		9740		15.48						
+USGS	08023080	2000-05-05		2030		11.83						
+USGS	08023080	2001-03-02		3660		12.44						
+USGS	08023080	2001-12-13	01:30	9560		14.38						
+USGS	08023080	2002-12-24	19:00	4740		12.94						
+USGS	08023080	2004-06-24	03:00	7410		13.83						
+USGS	08023080	2005-02-08	11:00	2890		12.14						
+USGS	08023080	2006-03-22	00:30	993		10.32						
+USGS	08023080	2007-01-15	06:30	5650		13.28						
+USGS	08023080	2008-03-31	21:30	2260		11.61						
+USGS	08023080	2009-03-15	11:00	1170		10.72						
+USGS	08023080	2009-10-30	18:00	5420		13.64						
+USGS	08023080	2011-02-01	15:00	42.0		4.52						
+USGS	08023080	2012-03-21	21:00	3660		12.79						
+USGS	08023080	2013-01-14	01:00	4520		13.25						
+USGS	08023080	2013-12-22	17:30	3030		12.29						
+USGS	08023080	2015-05-19	07:45	4510		13.24						
+USGS	08023080	2016-03-09	19:00	17000		18.87						
+USGS	08023080	2017-08-31	21:15	3120		12.47						
+USGS	08023080	2018-03-29	22:15	2810		12.27						
+USGS	08023080	2018-12-08	21:00	4180		13.12						

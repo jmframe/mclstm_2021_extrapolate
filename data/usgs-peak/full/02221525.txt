@@ -1,0 +1,118 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:11:31 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02221525 MURDER CREEK BELOW EATONTON, GA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02221525	1948-11-30				14.90	5					
+USGS	02221525	1961-02-27		6500	2,7	9.60						
+USGS	02221525	1978-01-26		4910		7.68						
+USGS	02221525	1979-02-24		6270		9.19						
+USGS	02221525	1980-03-29		3050		5.75						
+USGS	02221525	1981-02-11		4280		6.98						
+USGS	02221525	1982-02-04		4910		7.68						
+USGS	02221525	1983-04-09		6700		9.67						
+USGS	02221525	1984-08-02		5500		8.34						
+USGS	02221525	1985-02-06		3910		6.62						
+USGS	02221525	1986-03-20		1280		4.03						
+USGS	02221525	1987-03-02		1960		4.72						
+USGS	02221525	1988-02-06		1480		4.24						
+USGS	02221525	1989-04-15		1450		4.25						
+USGS	02221525	1990-03-18		9630		13.13						
+USGS	02221525	1991-05-07		2000		4.95						
+USGS	02221525	1992-08-23		1970		4.91						
+USGS	02221525	1992-11-26		5500		8.89						
+USGS	02221525	1994-07-06		3480		6.70						
+USGS	02221525	1995-02-12		5410		8.80						
+USGS	02221525	1996-03-07		4240		7.54						
+USGS	02221525	1997-03-02	04:00	3480		6.70						
+USGS	02221525	1998-03-09	08:00	8310		11.81						
+USGS	02221525	1999-02-01	13:15	1520		4.35						
+USGS	02221525	2000-01-24	17:45	1180		3.89						
+USGS	02221525	2001-06-12	17:15	3030		6.18						
+USGS	02221525	2002-02-07	10:45	1050		3.72						
+USGS	02221525	2003-07-03	04:00	2970		6.11						
+USGS	02221525	2004-09-28	04:30	3160		6.33						
+USGS	02221525	2005-03-29	10:15	1940		4.88						
+USGS	02221525	2006-02-26	08:30	978		3.62						
+USGS	02221525	2007-03-02	03:30	2120		5.10						
+USGS	02221525	2008-02-01	17:45	583		3.03						
+USGS	02221525	2009-04-03	18:30	2800		5.92						
+USGS	02221525	2009-12-19	21:45	3050		6.21						
+USGS	02221525	2011-02-05	08:45	1230		3.96						
+USGS	02221525	2012-02-25	20:30	811		3.39						
+USGS	02221525	2013-08-19	11:45	2830		5.96						
+USGS	02221525	2013-12-30	14:00	2460		5.52						
+USGS	02221525	2014-12-24	16:45	1330		4.10						
+USGS	02221525	2015-12-31	21:45	3640		6.89						
+USGS	02221525	2017-01-03		1290		4.05						
+USGS	02221525	2018-04-24	07:30	2690		5.80						
+USGS	02221525	2019-01-05	15:45	2900		6.04						

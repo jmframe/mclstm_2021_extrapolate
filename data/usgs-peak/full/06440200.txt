@@ -1,0 +1,105 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:15:51 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 06440200 SOUTH FORK BAD R NEAR COTTONWOOD,SD
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	06440200	1989-03-11		315		7.53						
+USGS	06440200	1990-05-20		273		7.31						
+USGS	06440200	1991-05-31		15200	2	17.89						
+USGS	06440200	1992-06-14		998		10.34						
+USGS	06440200	1993-03-07		1140		10.83						
+USGS	06440200	1994-03-03		1120		11.38						
+USGS	06440200	1995-05-14		3700		13.13						
+USGS	06440200	1996-05-28		7100		16.71						
+USGS	06440200	1997-06-03		4690		14.39	2		1997-02-18		15.75	1
+USGS	06440200	1998-06-15		740		9.56						
+USGS	06440200	1999-06-06		2120		12.35						
+USGS	06440200	2000-04-21		2210		12.64						
+USGS	06440200	2001-03-09		1000		10.50	1					
+USGS	06440200	2002-09-11		383		7.97						
+USGS	06440200	2003-02-19		250		8.20	1					
+USGS	06440200	2004-09-07		397		8.05						
+USGS	06440200	2005-05-13		1730		12.09						
+USGS	06440200	2006-03-30		241		7.24						
+USGS	06440200	2007-05-07		701		9.45						
+USGS	06440200	2008-06-06		2710		13.22						
+USGS	06440200	2009-04-12		1060		10.73						
+USGS	06440200	2010-03-15		1100		10.84	2		2010-03-09		11.28	1
+USGS	06440200	2011-05-21		2240		12.95						
+USGS	06440200	2012-05-07		155		6.74						
+USGS	06440200	2013-06-02		453		9.11						
+USGS	06440200	2013-10-16		1970		12.18						
+USGS	06440200	2015-05-25		4460		14.30						
+USGS	06440200	2016-04-17		830		10.74						
+USGS	06440200	2017-02-19		195		7.32						
+USGS	06440200	2018-06-22	11:07	814		10.68						
+USGS	06440200	2019-05-22	10:15	10300		16.59						

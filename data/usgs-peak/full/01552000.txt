@@ -1,0 +1,168 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:09:24 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01552000 Loyalsock Creek at Loyalsockville, PA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01552000	1925-11-13		7090		6.80						
+USGS	01552000	1926-11-16		30500		12.30						
+USGS	01552000	1928-06-30		14300		9.00						
+USGS	01552000	1929-05-03		20700		10.50						
+USGS	01552000	1930-04-07		6220		6.44						
+USGS	01552000	1931-03-29		9530		7.66						
+USGS	01552000	1932-04-01		10800		8.06						
+USGS	01552000	1933-08-24		29800		12.20						
+USGS	01552000	1934-04-01		9810		7.75	2		1934-03-05		8.55	1
+USGS	01552000	1934-12-01		15400		9.31						
+USGS	01552000	1936-03-18		26200		11.58						
+USGS	01552000	1937-08-11		7490		6.94						
+USGS	01552000	1937-10-23		15200		9.25						
+USGS	01552000	1938-12-10		12800		8.61						
+USGS	01552000	1940-09-01		16800		9.62						
+USGS	01552000	1941-04-05		11700		8.32						
+USGS	01552000	1941-12-24		17800		9.87						
+USGS	01552000	1942-12-30		15100		9.22						
+USGS	01552000	1944-05-07		16200		9.49						
+USGS	01552000	1945-03-03		9560		7.67						
+USGS	01552000	1946-05-28		29800		12.20						
+USGS	01552000	1947-04-05		12000		8.40						
+USGS	01552000	1948-04-14		10300		7.90	2		1948-02-20		8.13	1
+USGS	01552000	1948-12-30		13100		8.71						
+USGS	01552000	1950-03-28		11600		8.29						
+USGS	01552000	1950-11-26		30500		12.32						
+USGS	01552000	1952-03-11		21700		10.70						
+USGS	01552000	1952-12-11		13500		8.81						
+USGS	01552000	1954-05-04		10600		8.01						
+USGS	01552000	1954-12-30		8150		7.18						
+USGS	01552000	1955-10-14		13500		8.82						
+USGS	01552000	1956-11-02		27400		11.78						
+USGS	01552000	1957-12-21		18300		9.98						
+USGS	01552000	1959-01-22		12600		8.57						
+USGS	01552000	1960-03-31		15400		9.28						
+USGS	01552000	1961-02-26		17100		9.71						
+USGS	01552000	1962-04-01		14200		8.97						
+USGS	01552000	1963-03-27		13300		8.76						
+USGS	01552000	1964-03-10		21100		10.59						
+USGS	01552000	1965-02-08		7000		6.75						
+USGS	01552000	1966-02-13		11100		8.16						
+USGS	01552000	1966-11-29		10200		7.88						
+USGS	01552000	1967-11-03		12200		8.46						
+USGS	01552000	1968-11-19		9000		7.48						
+USGS	01552000	1970-04-03		15000		9.18						
+USGS	01552000	1970-10-22		8100		7.17	2		1971-02-13		9.66	1
+USGS	01552000	1972-06-23		47900		14.74						
+USGS	01552000	1973-02-03		15500		9.32						
+USGS	01552000	1973-12-21		16500		9.56						
+USGS	01552000	1975-09-26		46000		14.50						
+USGS	01552000	1975-10-18		18300		9.98						
+USGS	01552000	1976-10-09		22700		10.90						
+USGS	01552000	1978-01-09		25200		11.38						
+USGS	01552000	1979-03-06		22000		10.78						
+USGS	01552000	1980-03-21		14200		8.97						
+USGS	01552000	1981-02-24		17300		9.75	2		1981-02-11		10.49	1
+USGS	01552000	1982-06-06		11800		8.34	2		1982-02-01		12.45	1
+USGS	01552000	1983-04-16		13100		8.70						
+USGS	01552000	1983-12-14		29700		12.18		1975				
+USGS	01552000	1984-11-29		9400		7.62						
+USGS	01552000	1986-03-15		25500		11.44						
+USGS	01552000	1987-04-04		16100		9.45						
+USGS	01552000	1988-08-29		28600		12.41						
+USGS	01552000	1989-05-07		8050		7.83						
+USGS	01552000	1989-10-20		12000		9.02						
+USGS	01552000	1990-10-23		23800		11.60						
+USGS	01552000	1992-03-27		9590		8.34						
+USGS	01552000	1993-04-01		16400		10.08						
+USGS	01552000	1994-08-18		22200		11.30						
+USGS	01552000	1995-01-20		9890		8.42						
+USGS	01552000	1996-01-19		55800		17.93						
+USGS	01552000	1996-12-02		16700		11.19						
+USGS	01552000	1998-01-09		16100		11.05						
+USGS	01552000	1999-01-24		16300		11.09						
+USGS	01552000	2000-02-28		7710		8.34						
+USGS	01552000	2000-12-17		14100		9.60						
+USGS	01552000	2002-03-26		14700		9.76						
+USGS	01552000	2002-10-12		14300		9.65						
+USGS	01552000	2004-09-18		40400		15.24						
+USGS	01552000	2005-04-03		19400		10.85						
+USGS	01552000	2005-11-30		20700		11.07						
+USGS	01552000	2006-11-17		18300		10.43						
+USGS	01552000	2008-03-05		19900		10.86						
+USGS	01552000	2008-12-12		4370		5.34	2		2009-02-12		10.06	1
+USGS	01552000	2010-01-25		34900		14.20						
+USGS	01552000	2011-09-07		69100		19.78						
+USGS	01552000	2012-05-15		8100		6.21						
+USGS	01552000	2013-01-31		14100		8.00						
+USGS	01552000	2014-03-30	07:30	15700		8.46						
+USGS	01552000	2015-04-21	09:15	9970		7.06						
+USGS	01552000	2016-02-16		16300		8.64						
+USGS	01552000	2016-10-21		29100		12.11						
+USGS	01552000	2018-08-14	15:00	27300		11.66						
+USGS	01552000	2018-12-21	14:30	16300		9.25						

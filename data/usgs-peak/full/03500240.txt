@@ -1,0 +1,131 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:13:38 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 03500240 CARTOOGECHAYE CREEK NEAR FRANKLIN, NC
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	03500240	1949-06-00		7000	2,7,Bd	15.60	Bd					
+USGS	03500240	1961-12-12		2560		10.40						
+USGS	03500240	1963-03-06		1940		9.45						
+USGS	03500240	1964-04-07		1850		9.23						
+USGS	03500240	1964-10-04		4720		12.96						
+USGS	03500240	1966-02-13		2980		10.99						
+USGS	03500240	1967-06-04		2970		10.98						
+USGS	03500240	1968-03-12		1370		7.55						
+USGS	03500240	1969-02-02		1850		9.24						
+USGS	03500240	1970-06-05		1480		8.00						
+USGS	03500240	1971-01-23		1290		7.20						
+USGS	03500240	1971-12-07		1470		7.95						
+USGS	03500240	1973-05-28		4550		12.78						
+USGS	03500240	1973-12-31		2110		9.79						
+USGS	03500240	1975-03-30		2310		10.10						
+USGS	03500240	1976-05-15		3270		11.35						
+USGS	03500240	1977-04-05		1870		9.29						
+USGS	03500240	1977-11-06		1660		8.68						
+USGS	03500240	1979-03-04		2800		10.77						
+USGS	03500240	1980-03-21		2170		9.88						
+USGS	03500240	1981-05-27		1070		6.28						
+USGS	03500240	1982-02-03		1720		8.88						
+USGS	03500240	1983-02-02		3250		11.33						
+USGS	03500240	1984-05-08		1380		7.57						
+USGS	03500240	1985-02-01		1030		6.12						
+USGS	03500240	1986-03-13		816		5.23						
+USGS	03500240	1987-03-01		1580		8.40						
+USGS	03500240	1988-01-20		1400		7.64						
+USGS	03500240	1989-09-30		1580		8.40						
+USGS	03500240	1990-02-16		3410		11.51						
+USGS	03500240	1990-12-24		1760		9.00						
+USGS	03500240	1991-11-22		1050		6.23						
+USGS	03500240	1992-12-20		1270		7.14						
+USGS	03500240	1994-03-28		3240		11.31						
+USGS	03500240	1995-02-16		3610		12.59						
+USGS	03500240	1995-10-05		2970		11.72						
+USGS	03500240	1997-02-28		1700		8.77						
+USGS	03500240	1998-01-08		2630		11.19						
+USGS	03500240	1999-01-23		869		5.40						
+USGS	03500240	2000-04-04		1380		7.54						
+USGS	03500240	2001-01-19		1230		6.94						
+USGS	03500240	2002-09-27		1160		6.65						
+USGS	03500240	2003-05-07		1730		8.87						
+USGS	03500240	2004-09-17	05:45	6440	9	14.12						
+USGS	03500240	2005-06-12		1500		8.02						
+USGS	03500240	2006-01-18		1010		6.12						
+USGS	03500240	2006-11-15		850		5.53						
+USGS	03500240	2008-08-26		1340		7.40						
+USGS	03500240	2009-09-21		2500		10.93						
+USGS	03500240	2009-11-11		1600		8.34						
+USGS	03500240	2011-04-16		1370		7.58						
+USGS	03500240	2011-11-28		1240		7.16						
+USGS	03500240	2013-01-30		2780		11.40						
+USGS	03500240	2013-12-22		1380		7.63						
+USGS	03500240	2014-10-14		1260		7.23						
+USGS	03500240	2015-12-24		3250		12.09						
+USGS	03500240	2017-04-23		648		4.66						

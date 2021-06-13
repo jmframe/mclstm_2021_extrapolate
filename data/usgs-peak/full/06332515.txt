@@ -1,0 +1,126 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:15:33 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 06332515 BEAR DEN CREEK NR MANDAREE, ND
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	06332515	1967-03-22		290		7.90	1					
+USGS	06332515	1968-02-29		100		4.84	1					
+USGS	06332515	1969-04-06		1100	2	10.03						
+USGS	06332515	1970-05-09		1140		6.46						
+USGS	06332515	1971-03-13		560		6.20	1					
+USGS	06332515	1972-03-13		2840		9.02	1					
+USGS	06332515	1973-03-02		500		6.06	1					
+USGS	06332515	1974-05-20		672		5.43						
+USGS	06332515	1975-04-22		1300		7.08	1					
+USGS	06332515	1976-03-18		1560		7.25	1					
+USGS	06332515	1977-06-16		230		4.26						
+USGS	06332515	1978-03-26		1300		7.40						
+USGS	06332515	1979-04-18		1340		6.79						
+USGS	06332515	1980-04-04		10.0	2							
+USGS	06332515	1981-02-15		204		4.95						
+USGS	06332515	1982-03-29		1040		8.75	1					
+USGS	06332515	1983-03-12		760		5.95	1					
+USGS	06332515	1984-05-04		65.0		3.64	2		1984-03-20		5.00	1
+USGS	06332515	1985-04-03		71.0		3.34	2		1985-03-09		4.78	1
+USGS	06332515	1986-07-17		389		4.60	2		1986-02-26		7.61	1
+USGS	06332515	1987-03-31		650		5.77	1					
+USGS	06332515	1988-03-22		12.0		3.86	2		1988-02-13		4.45	1
+USGS	06332515	1989-03-10		375		6.33	1					
+USGS	06332515	1990-07-03		190		5.41	2		1990-02-20		5.74	
+USGS	06332515	1991-07-21		44.0					1991-07-15		4.90	1
+USGS	06332515	1992-02-28		70.0		4.73	1					
+USGS	06332515	1993-07-27		1360					1993-03-07		7.73	
+USGS	06332515	1994-06-10		501		6.07						
+USGS	06332515	1995-02-21		213		6.33	1					
+USGS	06332515	1996-04-08		470		5.93	1					
+USGS	06332515	1997-03-20		800		8.52						
+USGS	06332515	1998-03-27		140		4.97						
+USGS	06332515	1999-03-16		785		6.61	2		1999-03-02		6.72	
+USGS	06332515	2000-02-25		10.0	2				2000-08-12		4.68	1
+USGS	06332515	2001-03-13		230	2							
+USGS	06332515	2002-03-28		200	2	5.75	2		2002-03-03		6.19	1
+USGS	06332515	2003-03-17		450		6.27	2		2003-03-16		6.63	1
+USGS	06332515	2004-03-13		100	2	6.00	5					
+USGS	06332515	2005-06-29		480		6.23						
+USGS	06332515	2006-04-01		139		5.37	2		2006-03-08		5.66	1
+USGS	06332515	2007-03-11		85.0	2	5.64	2		2007-03-10		6.04	1
+USGS	06332515	2008-05-10		0.89		4.37	2		2008-09-28		4.74	
+USGS	06332515	2009-07-09		114		5.67	2		2009-03-23		7.72	1
+USGS	06332515	2010-05-25		274		6.49	2		2010-03-26		7.63	1
+USGS	06332515	2011-05-21		465		7.31						
+USGS	06332515	2012-06-07		372		6.96						
+USGS	06332515	2013-06-04		416		7.13						
+USGS	06332515	2014-03-10		200	2	7.28	1					
+USGS	06332515	2016-02-25		33.0	1,2	4.92	1					
+USGS	06332515	2017-03-19		230	2	6.35	1					
+USGS	06332515	2018-03-28		160	2	6.73	1					
+USGS	06332515	2019-03-21	03:00	215		7.95						

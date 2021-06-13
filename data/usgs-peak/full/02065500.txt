@@ -1,0 +1,148 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:10:49 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02065500 CUB CREEK AT PHENIX, VA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02065500	1940-08-00		4000	7,Bd	17.50	Bd					
+USGS	02065500	1947-03-14		1250		8.30						
+USGS	02065500	1948-04-01		2340		11.88						
+USGS	02065500	1948-12-04		2720		13.00						
+USGS	02065500	1950-09-13		1600		9.62						
+USGS	02065500	1950-12-05		938		7.09						
+USGS	02065500	1951-12-21		2300		11.80						
+USGS	02065500	1952-11-21		2300		11.76						
+USGS	02065500	1954-01-23		1870		10.37						
+USGS	02065500	1955-08-18		2620		12.68						
+USGS	02065500	1956-03-17		430		4.44						
+USGS	02065500	1957-04-09		1090		7.73						
+USGS	02065500	1958-02-27		1370		8.72						
+USGS	02065500	1958-12-30		1480		9.07						
+USGS	02065500	1960-04-06		1870		9.98						
+USGS	02065500	1961-02-24		1690		9.38						
+USGS	02065500	1961-12-13		1930		10.25						
+USGS	02065500	1963-03-07		1210		7.77						
+USGS	02065500	1964-02-07		695		5.83						
+USGS	02065500	1965-02-08		1570		9.05						
+USGS	02065500	1966-03-01		1600		9.10						
+USGS	02065500	1967-08-26		655		5.56						
+USGS	02065500	1968-01-15		785		6.25						
+USGS	02065500	1969-03-26		1120		7.53						
+USGS	02065500	1970-04-03		229		3.04						
+USGS	02065500	1971-05-14		1960		10.33						
+USGS	02065500	1972-06-22		7380		20.37						
+USGS	02065500	1972-10-06		2800		12.12						
+USGS	02065500	1974-09-07		2120		10.82						
+USGS	02065500	1975-09-25		4550		15.85						
+USGS	02065500	1976-01-01		1780		9.61						
+USGS	02065500	1976-10-21		2000		10.15						
+USGS	02065500	1978-01-26		7170		16.45						
+USGS	02065500	1979-02-25		6770		15.86						
+USGS	02065500	1980-01-19		1570		8.65						
+USGS	02065500	1981-06-07		506		4.83						
+USGS	02065500	1982-02-04		3430		11.72						
+USGS	02065500	1983-04-10		1900		9.37						
+USGS	02065500	1984-03-29		2700		10.75						
+USGS	02065500	1985-08-19		5740		14.61						
+USGS	02065500	1985-11-04		4240		12.74						
+USGS	02065500	1987-09-08		10600		19.31						
+USGS	02065500	1988-05-23		722		5.95						
+USGS	02065500	1989-05-02		2030		9.62						
+USGS	02065500	1990-02-11		2010		9.58						
+USGS	02065500	1991-03-30		2880		11.01						
+USGS	02065500	1992-04-22		1200		7.68						
+USGS	02065500	1993-03-05		5550		14.38						
+USGS	02065500	1993-11-28		6460		15.39						
+USGS	02065500	1995-06-13		1200		7.89						
+USGS	02065500	1996-09-06		15200		21.89						
+USGS	02065500	1996-12-02		1680		9.24						
+USGS	02065500	1998-01-28		2690		11.39						
+USGS	02065500	1999-01-25		1690		9.25						
+USGS	02065500	1999-10-01		704		5.81						
+USGS	02065500	2001-03-30		1640		9.16						
+USGS	02065500	2002-03-18		537		4.96						
+USGS	02065500	2003-09-19		6170		15.12						
+USGS	02065500	2003-11-07		1360		8.47						
+USGS	02065500	2005-03-29		1520		9.70						
+USGS	02065500	2006-09-06		665		6.27						
+USGS	02065500	2007-01-02		2580		11.53						
+USGS	02065500	2008-09-07		3120		12.29						
+USGS	02065500	2008-12-12		1960		10.52						
+USGS	02065500	2009-12-14		2220		10.54						
+USGS	02065500	2011-03-12		434		4.67						
+USGS	02065500	2012-03-26		980		7.44						
+USGS	02065500	2013-07-12		2780		11.41						
+USGS	02065500	2014-05-16		5770		14.73						
+USGS	02065500	2015-04-21		294		3.56						
+USGS	02065500	2015-12-25		3340		11.96						
+USGS	02065500	2016-10-09	19:00	1350		8.42	2					
+USGS	02065500	2018-05-20	01:45	1890		9.65						
+USGS	02065500	2018-10-12	11:00	5730		15.16						

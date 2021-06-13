@@ -1,0 +1,140 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:14:50 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 05458000 Little Cedar River near Ionia, IA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	05458000	1954-06-22		4600	7	11.37						
+USGS	05458000	1955-06-03		1500		7.54						
+USGS	05458000	1956-04-02		1160		6.78						
+USGS	05458000	1957-07-23		890		6.19						
+USGS	05458000	1958-07-15		632		5.53						
+USGS	05458000	1959-05-20		1830		7.30	2		1959-03-26		7.63	1
+USGS	05458000	1960-06-25		2790		9.19						
+USGS	05458000	1961-03-27		10800		15.58						
+USGS	05458000	1962-09-01		9000		15.14						
+USGS	05458000	1963-05-13		3510		9.65						
+USGS	05458000	1964-09-10		572		5.15						
+USGS	05458000	1965-09-30		7380		13.55						
+USGS	05458000	1966-02-09		3610		9.71						
+USGS	05458000	1967-06-11		3370		9.82						
+USGS	05458000	1968-07-23		2440		8.86						
+USGS	05458000	1969-06-30		7770		14.33						
+USGS	05458000	1970-07-29		1270		6.93						
+USGS	05458000	1971-03-31		2580		8.79	2		1971-03-17		9.43	1
+USGS	05458000	1972-09-30		5260		11.99						
+USGS	05458000	1973-04-17		5150		11.59						
+USGS	05458000	1974-06-05		9520		15.04						
+USGS	05458000	1975-04-29		4180		10.63						
+USGS	05458000	1976-04-18		1750		7.63	2		1976-03-14		9.79	1
+USGS	05458000	1977-08-16		350		4.69						
+USGS	05458000	1978-03-23		1720		8.57						
+USGS	05458000	1979-08-23		3830		10.60						
+USGS	05458000	1980-06-01		6250		12.73						
+USGS	05458000	1981-08-28		2350		8.65						
+USGS	05458000	1982-03-19		2510		8.86						
+USGS	05458000	1983-03-07		3770		10.44						
+USGS	05458000	1984-06-18		7880		13.94						
+USGS	05458000	1985-03-08		1470		7.24						
+USGS	05458000	1986-03-19		4590		11.30						
+USGS	05458000	1986-10-13		5150		11.91						
+USGS	05458000	1988-03-09		390	2	5.79	1					
+USGS	05458000	1989-03-12		650	2	6.67	1					
+USGS	05458000	1990-08-26		5470		12.88						
+USGS	05458000	1991-05-20		2840		10.05						
+USGS	05458000	1992-03-11		2220		8.84						
+USGS	05458000	1993-08-16		14000		18.99						
+USGS	05458000	1994-07-20		2180		8.76						
+USGS	05458000	1995-04-13		1080		6.45	2		1995-03-13		8.36	1
+USGS	05458000	1996-03-26		786		6.22						
+USGS	05458000	1997-03-12		2800		9.88						
+USGS	05458000	1998-06-29		4270		11.33						
+USGS	05458000	1999-07-21		12200		17.52						
+USGS	05458000	2000-06-15		5040		12.55						
+USGS	05458000	2001-04-13		8650		16.00						
+USGS	05458000	2002-08-06		479		5.04						
+USGS	05458000	2003-07-08		1220		6.34	2		2003-05-09		6.61	
+USGS	05458000	2004-05-23		7840		15.24						
+USGS	05458000	2005-04-21		1740		7.74	2		2005-02-15		7.75	1
+USGS	05458000	2006-04-17	23:15	1870		7.51						
+USGS	05458000	2007-03-23		3700		10.65						
+USGS	05458000	2008-06-09		24700		21.32						
+USGS	05458000	2009-05-27		1750		8.14						
+USGS	05458000	2010-03-13		5820		13.16						
+USGS	05458000	2011-03-24		3690		10.31						
+USGS	05458000	2012-05-08		1220		7.33						
+USGS	05458000	2013-05-21		16100		18.39						
+USGS	05458000	2014-06-19		3730		10.93						
+USGS	05458000	2015-06-24		3740		10.38	2		2015-06-24	1300	10.39	
+USGS	05458000	2016-08-25		9160		15.55						
+USGS	05458000	2017-07-22		6280		13.56						
+USGS	05458000	2018-06-11	13:45	6000		12.69						
+USGS	05458000	2019-03-16	17:15	6050		12.77						

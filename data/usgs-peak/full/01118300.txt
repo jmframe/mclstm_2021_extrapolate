@@ -1,0 +1,135 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:06:46 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01118300 PENDLETON HILL BROOK NEAR CLARKS FALLS, CT
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01118300	1959-03-06		98.0		3.65						
+USGS	01118300	1959-12-13		99.0		3.68						
+USGS	01118300	1961-09-21		174		4.95						
+USGS	01118300	1962-03-12		172		4.91						
+USGS	01118300	1963-03-06		164		4.79						
+USGS	01118300	1964-04-15		106		3.79						
+USGS	01118300	1965-02-25		76.0		3.06	2		1965-02-25	1200	3.55	1
+USGS	01118300	1966-02-14		83.0		3.35						
+USGS	01118300	1967-03-07		88.0		3.45						
+USGS	01118300	1968-03-18		225		5.91						
+USGS	01118300	1969-03-25		124		4.13						
+USGS	01118300	1970-04-02		212		5.64						
+USGS	01118300	1971-02-27		65.0		2.88						
+USGS	01118300	1972-06-19		152		4.60						
+USGS	01118300	1972-12-06		140		4.42						
+USGS	01118300	1973-12-17		108		3.84						
+USGS	01118300	1975-04-03		76.0		3.20						
+USGS	01118300	1976-01-28		146		4.51						
+USGS	01118300	1977-03-22		114		3.96						
+USGS	01118300	1978-01-26		220	9	6.24	1					
+USGS	01118300	1979-01-21		274		6.41						
+USGS	01118300	1980-03-22		266		6.34						
+USGS	01118300	1981-02-24		42.0		2.41						
+USGS	01118300	1982-06-05		304		6.73						
+USGS	01118300	1983-04-11		256		6.25						
+USGS	01118300	1983-11-25		169		4.86						
+USGS	01118300	1985-08-30		146		4.52						
+USGS	01118300	1986-08-08		128		4.17						
+USGS	01118300	1986-12-03		284		6.49						
+USGS	01118300	1988-03-27		120		4.01						
+USGS	01118300	1988-11-21		81.0		3.25						
+USGS	01118300	1989-10-21		84.0		3.30						
+USGS	01118300	1991-08-19		89.0		3.40						
+USGS	01118300	1992-01-24		125		4.10						
+USGS	01118300	1993-02-17		100		3.62						
+USGS	01118300	1994-03-10		218		5.76						
+USGS	01118300	1994-12-24		76.0		3.11						
+USGS	01118300	1996-01-19		119		3.40						
+USGS	01118300	1996-10-20		90.0		3.39						
+USGS	01118300	1998-03-09		223		5.83						
+USGS	01118300	1999-02-03		161		4.74						
+USGS	01118300	2000-04-22		103		3.65						
+USGS	01118300	2001-06-17		244		6.11						
+USGS	01118300	2002-05-18		49.0		2.61						
+USGS	01118300	2003-03-30		72.0		3.08						
+USGS	01118300	2004-04-13		280		6.47						
+USGS	01118300	2005-03-29		121		4.00						
+USGS	01118300	2005-10-15		288		6.58						
+USGS	01118300	2007-03-02	16:00	295		6.66	2		2007-03-02	1500	6.77	1
+USGS	01118300	2008-02-13		162		4.72						
+USGS	01118300	2009-07-01		244		6.00	2		2008-12-12		6.20	
+USGS	01118300	2010-03-30		556		7.58						
+USGS	01118300	2011-09-08		136		4.27						
+USGS	01118300	2011-12-08		150		4.51						
+USGS	01118300	2013-06-08		133		4.22						
+USGS	01118300	2014-03-30		283		6.42						
+USGS	01118300	2015-03-27		71.0		3.10						
+USGS	01118300	2015-12-24		87.6		3.40						
+USGS	01118300	2017-04-04		87.0		3.39						
+USGS	01118300	2018-01-13	05:30	145		4.40						
+USGS	01118300	2019-01-24	19:45	133		4.17						

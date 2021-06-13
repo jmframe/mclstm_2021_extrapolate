@@ -1,0 +1,115 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:15:00 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 05503800 Crooked Creek near Paris, MO
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	05503800	1973-04-21		12100	7	15.53						
+USGS	05503800	1980-06-04		1670		7.40						
+USGS	05503800	1981-05-18		3910		10.87						
+USGS	05503800	1982-06-09		2700		9.23						
+USGS	05503800	1983-04-02		4430		11.40						
+USGS	05503800	1984-06-09		2650		9.23						
+USGS	05503800	1985-03-04		5000		12.01						
+USGS	05503800	1986-09-30		4040		10.94						
+USGS	05503800	1986-10-03		5060		12.05						
+USGS	05503800	1987-12-21		1260		6.53						
+USGS	05503800	1989-05-28		1470		6.95						
+USGS	05503800	1990-06-08		4330		11.14						
+USGS	05503800	1991-07-12		4500		10.74						
+USGS	05503800	1991-11-18		2060		7.83						
+USGS	05503800	1993-07-01		8100		12.68	4					
+USGS	05503800	1994-04-12		3010		9.37						
+USGS	05503800	1995-05-24		4490		10.83						
+USGS	05503800	1996-05-07		9460		13.62						
+USGS	05503800	1997-04-12		4500		10.70						
+USGS	05503800	1998-07-04		5450		11.56						
+USGS	05503800	1998-12-07	15:00	2270		8.36						
+USGS	05503800	2000-06-25	10:30	697		4.95						
+USGS	05503800	2001-01-30	09:30	2780		9.21						
+USGS	05503800	2002-05-09		3850		10.35						
+USGS	05503800	2003-05-11		866		5.72						
+USGS	05503800	2004-08-28		3210		9.79						
+USGS	05503800	2005-01-13	03:00	1820		7.77						
+USGS	05503800	2006-06-11	09:15	2640		8.98						
+USGS	05503800	2007-04-03		2850		9.31						
+USGS	05503800	2008-07-25		6810		12.35						
+USGS	05503800	2008-12-28		4180		10.62						
+USGS	05503800	2010-07-21		4550		10.90						
+USGS	05503800	2011-02-28	21:30	2740		9.13						
+USGS	05503800	2012-05-01	08:00	912		5.53						
+USGS	05503800	2013-04-18		9090		13.00						
+USGS	05503800	2014-09-10	07:30	2530		8.80						
+USGS	05503800	2015-07-08	22:30	2220		8.29						
+USGS	05503800	2016-08-03	10:00	3040		9.14						
+USGS	05503800	2017-06-30	20:45	4260		10.68						
+USGS	05503800	2018-09-06	08:45	1980		7.87						
+USGS	05503800	2019-05-29	23:45	4090		10.07						

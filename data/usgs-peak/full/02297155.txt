@@ -1,0 +1,114 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:11:41 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02297155 HORSE CREEK NEAR MYAKKA HEAD FL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02297155	1977-12-16		904		20.58						
+USGS	02297155	1979-09-14		754		19.32						
+USGS	02297155	1980-04-02		602		17.91						
+USGS	02297155	1981-09-08		1030		21.61						
+USGS	02297155	1982-06-18		1380		22.70						
+USGS	02297155	1982-10-05		884		19.96						
+USGS	02297155	1983-12-30		352		15.23						
+USGS	02297155	1985-09-01		767		19.16						
+USGS	02297155	1985-10-06		663		18.33						
+USGS	02297155	1987-03-29		558		17.41						
+USGS	02297155	1988-09-06		2310		24.34						
+USGS	02297155	1989-09-05		355		15.26						
+USGS	02297155	1990-07-21		421		16.12						
+USGS	02297155	1991-06-30		915		20.97						
+USGS	02297155	1992-08-09		2470		23.62						
+USGS	02297155	1993-04-01		495		17.14						
+USGS	02297155	1994-09-16		1550		22.79						
+USGS	02297155	1995-08-03		763		19.92						
+USGS	02297155	1995-10-05		374		15.69						
+USGS	02297155	1997-09-27		420		16.35						
+USGS	02297155	1998-03-20		2500		23.65						
+USGS	02297155	1999-06-18		524		17.55						
+USGS	02297155	1999-10-05		235		13.89						
+USGS	02297155	2001-09-14		2320		23.46						
+USGS	02297155	2002-07-03		1010		21.35						
+USGS	02297155	2003-06-21		3610		24.67						
+USGS	02297155	2004-09-06		1790		22.78						
+USGS	02297155	2005-02-28		870		20.69						
+USGS	02297155	2005-10-24		345		16.12						
+USGS	02297155	2007-08-03		17.0		9.83						
+USGS	02297155	2008-08-31		85.0		11.50						
+USGS	02297155	2009-09-16		494		17.21						
+USGS	02297155	2010-09-13		344		15.42						
+USGS	02297155	2011-08-26		156		12.62						
+USGS	02297155	2012-09-22		538		17.72						
+USGS	02297155	2013-09-01		639		18.79						
+USGS	02297155	2014-09-28		498		17.27						
+USGS	02297155	2015-08-30		603		18.41						
+USGS	02297155	2016-09-01		605	2	18.44						
+USGS	02297155	2018-12-20	19:30	575		18.12						

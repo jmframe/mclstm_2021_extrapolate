@@ -1,0 +1,122 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:18:46 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 09386900 RIO NUTRIA NEAR RAMAH, NM
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	09386900	1970-08-17		365		4.25						
+USGS	09386900	1971-09-30		94.0		2.97						
+USGS	09386900	1971-12-25		98.0		2.92						
+USGS	09386900	1973-04-14		782		4.58						
+USGS	09386900	1974-08-01		396		4.17						
+USGS	09386900	1975-03-09		174		3.44						
+USGS	09386900	1976-08-19		80.0		3.67						
+USGS	09386900	1977-08-17		174		3.94						
+USGS	09386900	1978-03-26		278		4.33						
+USGS	09386900	1979-04-15		530		5.20						
+USGS	09386900	1980-04-10		506		5.09						
+USGS	09386900	1981-08-09		644		5.60						
+USGS	09386900	1982-07-30		770		6.00						
+USGS	09386900	1983-08-01		777		6.65						
+USGS	09386900	1984-04-05		351		5.26						
+USGS	09386900	1985-03-12		613		7.90						
+USGS	09386900	1986-08-27		70.0		5.50						
+USGS	09386900	1987-08-06		340		6.91						
+USGS	09386900	1988-04-18		64.0		5.48						
+USGS	09386900	1989-07-25		515		7.60						
+USGS	09386900	1990-07-10		290		6.60						
+USGS	09386900	1991-04-02		297		7.07						
+USGS	09386900	1992-08-11		436		7.21						
+USGS	09386900	1993-03-18		362		7.70						
+USGS	09386900	1994-03-05		539		3.89						
+USGS	09386900	1995-03-05		1840		9.34						
+USGS	09386900	1996-08-21		206		7.20	3					
+USGS	09386900	1997-08-05		583		8.06						
+USGS	09386900	1998-03-23		1130		8.71						
+USGS	09386900	1999-08-03		149		7.08						
+USGS	09386900	2000-03-29		42.0		6.58						
+USGS	09386900	2001-08-01		335		7.59						
+USGS	09386900	2002-09-11		21.0		6.48						
+USGS	09386900	2003-03-23		331		7.58						
+USGS	09386900	2004-07-25		292		7.48						
+USGS	09386900	2005-02-19		386		7.93						
+USGS	09386900	2006-08-04		360	2	7.68	1					
+USGS	09386900	2007-02-12		41.0		7.25						
+USGS	09386900	2008-07-26		182	1,2							
+USGS	09386900	2009-09-05		228	2	7.72	1					
+USGS	09386900	2010-04-06		323	9	7.82						
+USGS	09386900	2011-08-26		74.0	2	7.98						
+USGS	09386900	2012-03-07		24.0		7.27						
+USGS	09386900	2013-09-13		600	2	10.20	5					
+USGS	09386900	2014-08-18		168	2	8.36	1	2013				
+USGS	09386900	2015-07-31		323	2	9.06						
+USGS	09386900	2016-05-01		97.0		8.48						
+USGS	09386900	2017-07-20		186	2	9.99	5					

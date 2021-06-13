@@ -1,0 +1,139 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:16:13 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 06632400 ROCK CREEK AB KING CANYON CANAL, NR ARLINGTON, WY
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	06632400	1955-06-14		660	2,5	3.22						
+USGS	06632400	1956-06-02		946	2,5	3.85						
+USGS	06632400	1957-06-26		1380	2,5	4.64						
+USGS	06632400	1958-05-29		1280	2,5	4.42						
+USGS	06632400	1959-06-06		1040	2,5	4.02						
+USGS	06632400	1960-06-03		1720	2,5	4.96						
+USGS	06632400	1961-05-29		748	2,5	3.56						
+USGS	06632400	1962-05-12		739	2,5	3.21						
+USGS	06632400	1963-06-03		970	2,5	3.55						
+USGS	06632400	1964-06-07		858	2,5	3.34						
+USGS	06632400	1965-06-10		1460	2,5							
+USGS	06632400	1966-05-22		618	5	3.33						
+USGS	06632400	1967-06-20		2020	5	4.87						
+USGS	06632400	1968-06-12		1820	5	4.73						
+USGS	06632400	1969-05-27		1040	5	4.05						
+USGS	06632400	1970-06-25		2000	5	5.30						
+USGS	06632400	1971-06-19		2590	5	5.83						
+USGS	06632400	1972-06-04		1770	5	4.70						
+USGS	06632400	1973-06-12		2240	5	5.20						
+USGS	06632400	1974-05-29		1530	5	4.58						
+USGS	06632400	1975-06-15		1060	5	4.20						
+USGS	06632400	1976-06-05		878	5	3.94						
+USGS	06632400	1977-06-03		860	5	4.00						
+USGS	06632400	1978-06-10		1550	5	4.66						
+USGS	06632400	1979-06-06		1260	5	4.38						
+USGS	06632400	1980-06-06		1510	5	4.67						
+USGS	06632400	1981-06-08		968	5	4.06						
+USGS	06632400	1982-06-25		1850	5	5.16						
+USGS	06632400	1983-06-24		2510	5	5.92						
+USGS	06632400	1984-06-14		906	5	4.16						
+USGS	06632400	1985-06-08		959	5	4.20						
+USGS	06632400	1986-06-10		1900	5	5.35						
+USGS	06632400	1987-05-16		842	5	3.99						
+USGS	06632400	1988-06-06		1350	5	4.70						
+USGS	06632400	1989-05-29		502	5	3.23						
+USGS	06632400	1990-06-07		1050	5	4.31						
+USGS	06632400	1991-06-01		1650	5	5.06						
+USGS	06632400	1992-05-21		1120	5	4.39						
+USGS	06632400	1993-06-17		1280	5	4.46						
+USGS	06632400	1994-06-01		1150	5	4.44						
+USGS	06632400	1995-06-16		1630	5	5.18						
+USGS	06632400	1996-06-05		1370	5	4.73						
+USGS	06632400	1997-06-01		1540	5	4.94						
+USGS	06632400	1998-05-30		887	5	4.05						
+USGS	06632400	1999-06-03		1200	5	4.49						
+USGS	06632400	2000-05-23		1120	5	4.38						
+USGS	06632400	2001-05-16		1310	5	4.65						
+USGS	06632400	2002-05-30		516	5	3.36						
+USGS	06632400	2003-05-30		2110	5	5.59						
+USGS	06632400	2004-06-07		477	5	3.24	2		2004-03-18		3.77	1
+USGS	06632400	2005-05-23		1180	5	4.44						
+USGS	06632400	2006-05-23	01:15	1230	5	4.56						
+USGS	06632400	2007-05-20	21:30	751	5	3.87						
+USGS	06632400	2008-06-03		1240	5	4.59						
+USGS	06632400	2009-06-02		2640	5	6.11						
+USGS	06632400	2010-06-07		2800	5	6.10						
+USGS	06632400	2011-06-16		1990	5	4.44						
+USGS	06632400	2012-05-23		471	5	2.61						
+USGS	06632400	2013-05-26		682	5	3.05						
+USGS	06632400	2014-06-03		1650	5	4.34						
+USGS	06632400	2015-06-02	20:15	1170	5	3.76						
+USGS	06632400	2016-06-09	20:45	1620	5	4.37						
+USGS	06632400	2017-06-10		1120	5	3.80						
+USGS	06632400	2018-05-22	21:30	989	5	3.70						
+USGS	06632400	2019-06-08	21:15	902	5	3.54						

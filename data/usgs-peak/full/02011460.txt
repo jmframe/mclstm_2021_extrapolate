@@ -1,0 +1,119 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:10:23 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02011460 BACK CREEK NEAR SUNRISE, VA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02011460	1975-03-19		2410		5.27						
+USGS	02011460	1975-10-18		4200		6.30						
+USGS	02011460	1977-04-05		4570	2							
+USGS	02011460	1978-01-26		5400		6.80						
+USGS	02011460	1979-01-21		2270		5.15						
+USGS	02011460	1980-04-14		2380	2							
+USGS	02011460	1981-05-28		1660		4.65						
+USGS	02011460	1982-06-13		2780		5.51						
+USGS	02011460	1982-12-16		1530		4.53						
+USGS	02011460	1984-03-21		3800		6.10						
+USGS	02011460	1985-05-03		2130		5.05						
+USGS	02011460	1985-11-04		17500		10.01						
+USGS	02011460	1987-04-17		1920		4.88						
+USGS	02011460	1988-01-20		1270		4.26						
+USGS	02011460	1989-04-26		3130		5.73						
+USGS	02011460	1989-12-31		2100		5.03						
+USGS	02011460	1991-03-23		2200		5.10						
+USGS	02011460	1992-04-21		3560		5.98						
+USGS	02011460	1993-03-24		2830		5.54						
+USGS	02011460	1994-05-08		4240		6.31						
+USGS	02011460	1995-01-15		4980		6.63						
+USGS	02011460	1996-01-19		9400		8.15						
+USGS	02011460	1996-12-02		3570		5.69						
+USGS	02011460	1998-01-08		5360		6.55						
+USGS	02011460	1999-01-24		1080		3.70						
+USGS	02011460	2000-02-19		2160		4.74						
+USGS	02011460	2001-07-29		1610		4.27						
+USGS	02011460	2002-04-28		3200		5.45						
+USGS	02011460	2003-02-22		2710		5.14						
+USGS	02011460	2003-11-19		6260		7.15						
+USGS	02011460	2005-03-28		2120		4.74						
+USGS	02011460	2005-11-29		4110		6.09						
+USGS	02011460	2007-03-02		4620		6.37						
+USGS	02011460	2008-03-05		3460		5.71						
+USGS	02011460	2008-12-12		1270		5.80	6					
+USGS	02011460	2010-01-25		6260		9.16						
+USGS	02011460	2011-04-12		3380		7.66						
+USGS	02011460	2011-12-07		2600		7.12						
+USGS	02011460	2013-01-31		2590		7.29						
+USGS	02011460	2014-05-16		3930		8.18						
+USGS	02011460	2015-04-14		1860		6.70						
+USGS	02011460	2016-09-30		1950		6.78						
+USGS	02011460	2017-05-26	08:15	1190		5.94						
+USGS	02011460	2018-04-16	05:00	6270		9.32						
+USGS	02011460	2018-12-21	19:45	1620		6.42						

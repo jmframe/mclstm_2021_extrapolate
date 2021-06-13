@@ -1,0 +1,143 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:11:42 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02297310 HORSE CREEK AT SR 72 NEAR ARCADIA, FL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02297310	1950-09-06		2830		14.10						
+USGS	02297310	1951-08-12		810		8.41						
+USGS	02297310	1951-10-02		6680		16.84						
+USGS	02297310	1952-10-22		4790		15.81						
+USGS	02297310	1953-10-10		4960		15.93						
+USGS	02297310	1955-09-02		1870		12.21						
+USGS	02297310	1956-09-13		442		6.22						
+USGS	02297310	1957-08-09		1910		12.29						
+USGS	02297310	1957-10-04		2540		13.57						
+USGS	02297310	1959-06-21		3870		15.12						
+USGS	02297310	1960-08-01		11700		17.94						
+USGS	02297310	1960-10-03		2100		12.76						
+USGS	02297310	1962-09-21		6690		16.70						
+USGS	02297310	1963-09-25		1090		9.57						
+USGS	02297310	1964-09-11		970		9.10						
+USGS	02297310	1965-07-31		1960		12.43						
+USGS	02297310	1965-10-04		1680		11.72						
+USGS	02297310	1967-09-29		2240		13.52						
+USGS	02297310	1968-07-23		3080		14.30						
+USGS	02297310	1969-07-04		1930	2	12.36	5					
+USGS	02297310	1970-03-27		1570	2	11.41	5					
+USGS	02297310	1971-09-18		1420		11.05						
+USGS	02297310	1972-09-04		1540		11.34						
+USGS	02297310	1973-01-24		1440		11.13						
+USGS	02297310	1974-07-07		3910		15.37						
+USGS	02297310	1975-09-14		828		8.64						
+USGS	02297310	1975-10-30		693		7.91						
+USGS	02297310	1977-09-08		1430		11.58	5					
+USGS	02297310	1978-08-04		2350		13.22						
+USGS	02297310	1979-09-17		1780		13.47						
+USGS	02297310	1979-10-01		1880		13.83						
+USGS	02297310	1981-09-08		1420		13.45						
+USGS	02297310	1982-06-18		6260		17.34						
+USGS	02297310	1983-09-23		1960		13.43						
+USGS	02297310	1984-03-13		1100		11.05						
+USGS	02297310	1985-09-07		614		8.53						
+USGS	02297310	1986-09-11		970		10.83						
+USGS	02297310	1987-03-31		2060		14.18						
+USGS	02297310	1988-09-09		5430		16.64						
+USGS	02297310	1989-09-10		217		5.30						
+USGS	02297310	1990-07-24		742		10.06						
+USGS	02297310	1991-07-04		1940		13.58						
+USGS	02297310	1992-06-27		8960		17.78						
+USGS	02297310	1993-04-02		1250		12.50						
+USGS	02297310	1994-09-18		4180		15.49						
+USGS	02297310	1995-07-30		2260		13.94						
+USGS	02297310	1995-10-11		2790		14.45						
+USGS	02297310	1997-09-28		2520		13.89						
+USGS	02297310	1998-03-22		5870		16.42						
+USGS	02297310	1999-07-02		1100		12.27						
+USGS	02297310	2000-09-18		1230		12.59						
+USGS	02297310	2001-09-16		6710		16.80						
+USGS	02297310	2002-07-06		2500		13.86						
+USGS	02297310	2003-06-23		11000		18.02						
+USGS	02297310	2004-09-09		4940		15.42						
+USGS	02297310	2005-06-06		1950		13.95						
+USGS	02297310	2005-11-02		928		10.59						
+USGS	02297310	2007-09-04		376		7.09						
+USGS	02297310	2008-08-29		767		10.82						
+USGS	02297310	2009-08-15		561		9.79						
+USGS	02297310	2010-08-28		1030		10.99						
+USGS	02297310	2011-09-04		902		11.27						
+USGS	02297310	2012-08-28		1210		11.67						
+USGS	02297310	2013-07-03		1350		13.06						
+USGS	02297310	2014-09-13		278		6.73						
+USGS	02297310	2015-08-30		3040		15.27						
+USGS	02297310	2016-09-02		1240		12.52						
+USGS	02297310	2017-09-11		8430	9	17.04						
+USGS	02297310	2019-08-19	12:45	1370		13.48						

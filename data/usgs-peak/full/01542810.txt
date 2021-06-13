@@ -1,0 +1,130 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:08:34 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01542810 Waldy Run near Emporium, PA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01542810	1964-03-10		270	2	6.13						
+USGS	01542810	1965-02-12		88.0					1965-02-08		4.50	1
+USGS	01542810	1966-02-14		95.0		4.26	2		1966-02-13		4.37	1
+USGS	01542810	1967-09-28		828		6.32						
+USGS	01542810	1968-05-12		135		4.46						
+USGS	01542810	1969-04-05		131		4.44						
+USGS	01542810	1970-04-02		233		4.90						
+USGS	01542810	1970-10-13		248		4.96						
+USGS	01542810	1972-06-22		469		5.86						
+USGS	01542810	1972-12-06		245		5.00						
+USGS	01542810	1974-07-01		222		4.94						
+USGS	01542810	1975-02-24		262		5.10						
+USGS	01542810	1976-02-17		224		4.95						
+USGS	01542810	1977-03-13		134		4.56						
+USGS	01542810	1977-12-14		175		4.74						
+USGS	01542810	1979-01-02		190		4.80						
+USGS	01542810	1979-11-26		166		4.69						
+USGS	01542810	1981-04-29		282		5.10	2		1981-02-20		5.56	1
+USGS	01542810	1981-10-28		312		5.19						
+USGS	01542810	1983-05-23		111		4.45						
+USGS	01542810	1984-02-14		328		5.24						
+USGS	01542810	1985-03-12		200		4.82						
+USGS	01542810	1986-06-05		211		4.86						
+USGS	01542810	1987-09-12		131		4.54						
+USGS	01542810	1987-11-29		122		4.50						
+USGS	01542810	1989-06-20		407		5.48						
+USGS	01542810	1990-04-11		151		4.63						
+USGS	01542810	1991-03-04		168		4.70	2		1991-03-04	1200	4.75	1
+USGS	01542810	1992-09-22		166		4.69						
+USGS	01542810	1993-03-30		163		4.69						
+USGS	01542810	1994-08-18		277		5.09						
+USGS	01542810	1994-12-05		85.0		4.34						
+USGS	01542810	1996-01-19		698		6.24						
+USGS	01542810	1996-11-08		233		4.94						
+USGS	01542810	1998-01-08		195		4.98						
+USGS	01542810	1999-01-24		160		4.68						
+USGS	01542810	2000-04-04		113		4.48						
+USGS	01542810	2001-05-26		128		4.55						
+USGS	01542810	2002-05-13		144		4.62						
+USGS	01542810	2003-08-09		315		5.21						
+USGS	01542810	2003-11-19		299		5.16						
+USGS	01542810	2005-01-14		157		4.69						
+USGS	01542810	2005-11-29		359		5.34						
+USGS	01542810	2006-10-20		226		4.92						
+USGS	01542810	2008-02-06		220		4.90						
+USGS	01542810	2009-03-09		293		5.14						
+USGS	01542810	2010-01-25		418		5.51						
+USGS	01542810	2010-12-01		411		5.49						
+USGS	01542810	2012-05-09		934		4.59						
+USGS	01542810	2013-01-31		167		4.72						
+USGS	01542810	2013-12-22		181		4.77						
+USGS	01542810	2015-07-26	19:15	226		4.92						
+USGS	01542810	2015-10-29		134		4.59						
+USGS	01542810	2017-01-12		208		4.86						
+USGS	01542810	2018-09-11	00:30	190		4.80	2		2018-01-12	0545	4.81	1
+USGS	01542810	2019-06-21	06:45	247		4.99						

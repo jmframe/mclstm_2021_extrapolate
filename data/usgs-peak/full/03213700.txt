@@ -1,0 +1,125 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:13:01 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 03213700 TUG FORK AT WILLIAMSON, WV
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	03213700	1968-05-28		20000		27.73	3					
+USGS	03213700	1969-01-21		5440		11.43	6					
+USGS	03213700	1969-12-31		22600		31.54						
+USGS	03213700	1971-05-07		23300		29.97						
+USGS	03213700	1972-02-25		20600		29.75						
+USGS	03213700	1973-03-17		23800		32.65						
+USGS	03213700	1974-01-12		29200		37.37						
+USGS	03213700	1975-03-30		23100		32.01						
+USGS	03213700	1976-01-01		8720		17.02						
+USGS	03213700	1977-04-05		94000		52.56		1875				
+USGS	03213700	1978-01-26		36500		37.80						
+USGS	03213700	1979-01-22		21300		29.52						
+USGS	03213700	1980-05-01		10800		18.96						
+USGS	03213700	1981-06-07		26200		32.79						
+USGS	03213700	1982-03-15		8920		16.54						
+USGS	03213700	1983-05-16		6510		13.66						
+USGS	03213700	1984-05-08		49100		44.94						
+USGS	03213700	1985-02-02		13900		22.77						
+USGS	03213700	1985-11-29		9800		18.29						
+USGS	03213700	1987-04-09		19800		28.66						
+USGS	03213700	1987-12-26		2700		7.75						
+USGS	03213700	1989-05-06		15600		24.69						
+USGS	03213700	1989-10-17		20700		29.53						
+USGS	03213700	1991-03-23		11600		20.30						
+USGS	03213700	1991-12-03		13900		22.79						
+USGS	03213700	1993-03-05		18800		24.37						
+USGS	03213700	1994-02-12		24700		31.44						
+USGS	03213700	1995-05-19		15300		22.60						
+USGS	03213700	1996-05-16		26800		33.46						
+USGS	03213700	1997-03-04		16100		21.98						
+USGS	03213700	1998-03-21		20300		25.46						
+USGS	03213700	1999-01-25		7020		13.62						
+USGS	03213700	2000-07-13		7640		14.34						
+USGS	03213700	2001-07-09		13000		20.03						
+USGS	03213700	2002-05-03		42900		42.33						
+USGS	03213700	2003-02-16		36900		38.40						
+USGS	03213700	2003-11-20		23800		29.05						
+USGS	03213700	2004-12-10		8090		14.84						
+USGS	03213700	2006-04-09		10900		17.87						
+USGS	03213700	2007-04-15		32100		35.13						
+USGS	03213700	2008-04-06		12100		18.98						
+USGS	03213700	2009-05-09		40500		40.80						
+USGS	03213700	2010-02-06		14800		21.59						
+USGS	03213700	2011-03-01		12500		19.38						
+USGS	03213700	2012-04-27		19900		26.00						
+USGS	03213700	2013-01-31		22700		28.23						
+USGS	03213700	2013-12-07		12400	1,2							
+USGS	03213700	2015-03-05		39000		39.80						
+USGS	03213700	2016-05-03		11800		18.69						
+USGS	03213700	2017-04-24	12:00	15700		22.38						
+USGS	03213700	2018-12-22	08:45	19400		25.58						

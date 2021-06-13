@@ -1,0 +1,108 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:16:02 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 06468250 JAMES RIVER ABOVE ARROWWOOD LAKE NR KENSAL, ND
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	06468250	1986-03-16		763		7.75						
+USGS	06468250	1987-03-28		1500		11.48	1					
+USGS	06468250	1988-03-28		180	2							
+USGS	06468250	1989-04-09		97.0		3.09						
+USGS	06468250	1990-07-03		113		3.36						
+USGS	06468250	1991-05-07		4.10					1991-03-26		2.52	1
+USGS	06468250	1992-03-09		410	2							
+USGS	06468250	1993-07-29		3400		10.64						
+USGS	06468250	1994-03-25		2150		9.49						
+USGS	06468250	1995-03-21		2700		9.24						
+USGS	06468250	1996-04-18		4620		9.05						
+USGS	06468250	1997-04-05		4700		13.00	1,5					
+USGS	06468250	1998-03-31		1810		8.66						
+USGS	06468250	1999-03-30		3930		10.30						
+USGS	06468250	2000-07-16		1300		8.96						
+USGS	06468250	2001-03-27		2990		10.41						
+USGS	06468250	2002-05-13		78.0		3.22						
+USGS	06468250	2003-07-14		373		5.22						
+USGS	06468250	2004-03-30		3630		10.28						
+USGS	06468250	2005-07-17		451		5.89						
+USGS	06468250	2006-04-07		184		3.95						
+USGS	06468250	2007-03-23		460	2				2007-03-27		4.93	
+USGS	06468250	2008-09-26		39.0		3.04	2		2008-03-19		3.13	1
+USGS	06468250	2009-04-18		8470		14.70	1,2		2009-04-28		16.69	1
+USGS	06468250	2010-04-04		3090		10.23						
+USGS	06468250	2011-04-12		7800		14.41						
+USGS	06468250	2012-04-16		96.0		3.76	2		2011-10-01		5.76	
+USGS	06468250	2013-05-04		2800		10.10						
+USGS	06468250	2014-04-20		559		6.35						
+USGS	06468250	2015-06-07		94.0		3.11	2		2015-03-10		3.22	1
+USGS	06468250	2016-09-05		37.0		2.44						
+USGS	06468250	2017-04-02		1470		8.80						
+USGS	06468250	2018-05-04	06:00	244		5.09	2		2018-04-23	0215	5.12	1
+USGS	06468250	2019-04-08	18:45	1030		8.52						

@@ -1,0 +1,107 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:09:34 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01594950 MCMILLAN F NEAR FORT PENDLETON, MD
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01594950	1987-01-19		48.0		2.42						
+USGS	01594950	1988-01-20	03:15	64.0		2.81						
+USGS	01594950	1989-07-13		93.0		3.18						
+USGS	01594950	1990-05-26	15:00	194		4.91						
+USGS	01594950	1990-12-30		91.0		3.30						
+USGS	01594950	1992-07-11	03:00			4.61	1					
+USGS	01594950	1993-04-01		106		3.56						
+USGS	01594950	1994-02-10		414		7.23						
+USGS	01594950	1995-08-06		307		5.91						
+USGS	01594950	1996-01-19	05:45	286		5.99						
+USGS	01594950	1996-12-01		100		3.45						
+USGS	01594950	1998-06-30	20:15	87.0		3.22						
+USGS	01594950	1999-01-23	18:45	51.0		2.51	2		1999-01-10		2.82	1
+USGS	01594950	2000-02-19	01:45	359		6.72						
+USGS	01594950	2001-07-26	15:45	465		7.67						
+USGS	01594950	2002-07-27	08:30	240		5.33						
+USGS	01594950	2003-08-12	16:00	534		8.23						
+USGS	01594950	2003-11-12	06:30	134		4.06	2		2004-02-06		4.17	1
+USGS	01594950	2005-03-29		101		3.52						
+USGS	01594950	2006-04-22	12:30	66.0		2.84						
+USGS	01594950	2007-07-05	20:45	123		3.91						
+USGS	01594950	2008-03-04	23:45	106		3.63						
+USGS	01594950	2008-12-11	20:15	113		3.75						
+USGS	01594950	2010-03-13	17:00	110		3.69						
+USGS	01594950	2011-04-19	14:30	142		4.20						
+USGS	01594950	2011-11-23	01:30	79.0		3.12						
+USGS	01594950	2013-08-28	21:30	86.0		3.25						
+USGS	01594950	2014-05-16	01:15	113		3.74						
+USGS	01594950	2015-03-11	01:30	98.0		3.52						
+USGS	01594950	2016-02-03	12:30	49.0		2.52						
+USGS	01594950	2017-07-28		456		7.73						
+USGS	01594950	2018-02-16	13:15	200		5.05						
+USGS	01594950	2019-06-30	03:15	821	2	9.29						

@@ -1,0 +1,140 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:08:22 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01486000 MANOKIN BRANCH NEAR PRINCESS ANNE, MD
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01486000	1951-06-10		97.0		3.88						
+USGS	01486000	1952-03-24		84.0		3.65						
+USGS	01486000	1953-08-14		210		5.96						
+USGS	01486000	1954-04-17		41.0		3.03						
+USGS	01486000	1955-08-13		237		6.63						
+USGS	01486000	1956-02-04		54.0		3.37	2		1955-10-01		3.50	
+USGS	01486000	1956-10-31		154		5.20						
+USGS	01486000	1958-05-07		174		5.49						
+USGS	01486000	1959-08-08		111		4.51						
+USGS	01486000	1960-09-12		184		5.63						
+USGS	01486000	1961-02-08		152		5.17						
+USGS	01486000	1962-01-07		218		5.21						
+USGS	01486000	1963-03-12		224		5.34	1					
+USGS	01486000	1964-02-16		140		4.38						
+USGS	01486000	1965-08-01		38.0		2.80						
+USGS	01486000	1966-02-13		46.0		3.00						
+USGS	01486000	1967-08-24		72.0		3.55						
+USGS	01486000	1968-03-18		126		4.22						
+USGS	01486000	1969-08-20		547		5.44						
+USGS	01486000	1970-04-14		311		3.62						
+USGS	01486000	1971-08-28		194		2.72						
+USGS	01486000	1975-03-19		265		4.21						
+USGS	01486000	1976-01-01		97.0		3.49						
+USGS	01486000	1976-10-26		79.0		3.35						
+USGS	01486000	1978-08-14		355		5.23						
+USGS	01486000	1979-09-06		361		5.28						
+USGS	01486000	1980-04-28		201		4.24						
+USGS	01486000	1981-04-06		13.0		2.65						
+USGS	01486000	1982-03-07		58.0		3.17						
+USGS	01486000	1983-04-16		127		4.03						
+USGS	01486000	1984-04-05		126		4.01						
+USGS	01486000	1985-08-19		347		7.08						
+USGS	01486000	1986-09-06		80.0		3.48						
+USGS	01486000	1987-01-19		90.0		3.61						
+USGS	01486000	1988-07-23		84.0		3.53						
+USGS	01486000	1989-08-19		179		4.88						
+USGS	01486000	1990-05-29		145		4.36						
+USGS	01486000	1991-01-12		129		4.12						
+USGS	01486000	1992-08-17		105		3.81						
+USGS	01486000	1993-03-13		204		5.27						
+USGS	01486000	1994-03-02		303		6.34						
+USGS	01486000	1995-06-12		60.0		3.10						
+USGS	01486000	1996-07-13		137		3.72						
+USGS	01486000	1996-12-14		122		3.57						
+USGS	01486000	1998-01-28	11:30	332		6.21						
+USGS	01486000	1999-09-16	15:45	257		4.61						
+USGS	01486000	2000-03-21	19:30	316		5.78						
+USGS	01486000	2001-03-21	14:15	314		5.73						
+USGS	01486000	2002-04-28	15:15	70.0		3.24						
+USGS	01486000	2003-02-22	20:15	72.0		3.25						
+USGS	01486000	2004-08-16	10:15	305		5.51						
+USGS	01486000	2005-07-08	07:00	349		6.82						
+USGS	01486000	2006-07-06	00:45	97.0		3.22						
+USGS	01486000	2007-04-16	04:15	176		4.17						
+USGS	01486000	2008-06-05	03:00	117		3.35						
+USGS	01486000	2008-12-12	03:00	73.0		2.94						
+USGS	01486000	2009-12-09	10:00	233		4.91						
+USGS	01486000	2011-08-28	02:45	76.0		2.98						
+USGS	01486000	2012-03-01	02:30	52.0		2.66						
+USGS	01486000	2012-10-29	21:00	288		5.80						
+USGS	01486000	2014-04-16	02:30	91.0		3.16						
+USGS	01486000	2015-04-20	10:00	63.0		2.82						
+USGS	01486000	2016-09-29	02:00	396		7.91						
+USGS	01486000	2016-10-09	12:00	256		5.20						
+USGS	01486000	2018-05-18	11:45	307		6.14						
+USGS	01486000	2018-10-12	02:45	278		5.60						

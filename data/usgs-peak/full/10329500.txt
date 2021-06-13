@@ -1,0 +1,172 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:19:26 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 10329500 MARTIN CK NR PARADISE VALLEY, NV
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	10329500	1922-05-19		275		6.67						
+USGS	10329500	1923-05-21		101		4.92						
+USGS	10329500	1924-02-08		74.0		4.65						
+USGS	10329500	1925-02-04		550		8.60						
+USGS	10329500	1926-03-04		220		6.15						
+USGS	10329500	1927-02-21		2000		12.00						
+USGS	10329500	1928-05-10		165	1							
+USGS	10329500	1929-05-24		82.0		5.18						
+USGS	10329500	1930-05-00		85.0	Bd	5.05	Bd					
+USGS	10329500	1931-03-18		106		5.02						
+USGS	10329500	1932-03-19		420	2							
+USGS	10329500	1933-08-18		570		9.30						
+USGS	10329500	1934-03-29		56.0	1							
+USGS	10329500	1935-05-31		242		6.74						
+USGS	10329500	1936-04-23		200		6.93						
+USGS	10329500	1937-04-15		247		7.52						
+USGS	10329500	1938-04-19		1000		11.00						
+USGS	10329500	1939-03-20		330		3.90						
+USGS	10329500	1940-02-27		441		4.09						
+USGS	10329500	1941-03-01		361		3.73						
+USGS	10329500	1942-03-31		400		3.90						
+USGS	10329500	1943-01-21		9000		11.10						
+USGS	10329500	1944-05-10		145		1.36						
+USGS	10329500	1945-02-02		1500		5.00						
+USGS	10329500	1945-12-28		269		1.99	6					
+USGS	10329500	1947-02-12		296		2.67	3					
+USGS	10329500	1948-01-07		201		2.50						
+USGS	10329500	1949-04-12		209		2.57						
+USGS	10329500	1950-03-19		262		3.17						
+USGS	10329500	1951-02-07		470		3.98						
+USGS	10329500	1952-04-06		955		5.55						
+USGS	10329500	1953-05-29		174		2.81						
+USGS	10329500	1954-03-09		177		2.71						
+USGS	10329500	1955-03-07		87.0		2.27						
+USGS	10329500	1956-01-15		1200		5.49						
+USGS	10329500	1957-02-25		684		4.21						
+USGS	10329500	1958-02-25		1940		7.30						
+USGS	10329500	1959-04-04		71.0		1.92						
+USGS	10329500	1960-03-07		265		3.01						
+USGS	10329500	1961-08-06		780		4.44						
+USGS	10329500	1962-03-27		808		4.50						
+USGS	10329500	1963-01-31		3770		7.40						
+USGS	10329500	1964-03-31		184		2.17						
+USGS	10329500	1964-12-24		880		3.90						
+USGS	10329500	1966-04-02		84.0		1.77						
+USGS	10329500	1967-01-29		560		3.05						
+USGS	10329500	1968-02-23		207		2.09						
+USGS	10329500	1969-01-21		1560		4.97						
+USGS	10329500	1970-01-22		840		3.73						
+USGS	10329500	1971-01-18		656		3.20						
+USGS	10329500	1972-03-03		632		3.23						
+USGS	10329500	1973-01-16		1380		4.73						
+USGS	10329500	1974-01-15		880		3.76						
+USGS	10329500	1975-07-11		2430		6.10						
+USGS	10329500	1976-03-17		150		1.92						
+USGS	10329500	1977-06-10		203		2.17						
+USGS	10329500	1978-04-01		360		2.70						
+USGS	10329500	1979-03-07		445		2.98						
+USGS	10329500	1980-01-13		2580		6.22						
+USGS	10329500	1981-02-14		152		1.82						
+USGS	10329500	1982-02-16		1390		4.78						
+USGS	10329500	1983-03-13		1500		4.86						
+USGS	10329500	1984-05-15		1130		4.35						
+USGS	10329500	1985-04-02		193		2.21						
+USGS	10329500	1986-02-17		4350		8.80						
+USGS	10329500	1987-05-26		118		1.48						
+USGS	10329500	1988-05-17		28.0		0.81						
+USGS	10329500	1989-03-08		1120		4.23						
+USGS	10329500	1990-02-26		264		2.17						
+USGS	10329500	1991-03-04		288		2.26						
+USGS	10329500	1992-02-20		87.0		1.37						
+USGS	10329500	1993-05-14		294		2.50						
+USGS	10329500	1994-05-13		64.0		1.26						
+USGS	10329500	1995-05-06		1150		4.42						
+USGS	10329500	1996-03-10		431		2.72						
+USGS	10329500	1997-01-02		2540		6.72						
+USGS	10329500	1998-05-13		601		3.41						
+USGS	10329500	1999-03-01		527		3.15						
+USGS	10329500	2000-04-05		134		1.69						
+USGS	10329500	2001-04-28		64.0		1.52						
+USGS	10329500	2002-03-06		329		2.56						
+USGS	10329500	2003-05-30		132		1.69						
+USGS	10329500	2004-03-19		395		3.05						
+USGS	10329500	2005-05-16		583		3.37						
+USGS	10329500	2005-12-31		1790		7.81						
+USGS	10329500	2007-03-13		41.0		2.59	3					
+USGS	10329500	2008-05-19	05:45	196		3.81						
+USGS	10329500	2009-05-06	05:00	97.0		3.16						
+USGS	10329500	2010-06-05	06:30	142		3.49						
+USGS	10329500	2011-04-18	14:45	1030		6.41						
+USGS	10329500	2012-04-26	22:15	98.0		3.13						
+USGS	10329500	2012-12-05	13:15	89.0		3.08						
+USGS	10329500	2014-02-13	09:15	83.0		3.02						
+USGS	10329500	2015-02-09	11:30	97.0		3.16						
+USGS	10329500	2016-03-14	07:00	272		4.20						
+USGS	10329500	2017-02-09	17:00	2320		9.49						
+USGS	10329500	2018-03-22	20:40	366		4.43						
+USGS	10329500	2019-02-27	17:15	646		5.65						

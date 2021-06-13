@@ -1,0 +1,133 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:19:29 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 10336660 BLACKWOOD C NR TAHOE CITY CA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	10336660	1961-05-10		200		5.98						
+USGS	10336660	1962-05-08		238		6.13						
+USGS	10336660	1963-01-31		2000		8.90						
+USGS	10336660	1963-11-15		322		4.27						
+USGS	10336660	1964-12-00		2100	Bd				1964-12-22		9.90	
+USGS	10336660	1966-05-10		198		5.21						
+USGS	10336660	1967-03-16		1670		7.84						
+USGS	10336660	1968-02-20		334		6.11						
+USGS	10336660	1969-05-24		605		6.35						
+USGS	10336660	1970-01-21		1910		8.48						
+USGS	10336660	1971-06-26		585		3.38	6					
+USGS	10336660	1972-05-13		287		2.41						
+USGS	10336660	1973-05-13		393		2.78						
+USGS	10336660	1973-11-12		704		3.64						
+USGS	10336660	1975-06-06		449		2.87						
+USGS	10336660	1975-10-26		274		2.28						
+USGS	10336660	1977-06-01		88.0		1.42						
+USGS	10336660	1978-05-14		301		2.39						
+USGS	10336660	1979-05-21		336		2.51						
+USGS	10336660	1980-01-13		1100		8.65	1					
+USGS	10336660	1981-05-01		208		2.46						
+USGS	10336660	1981-12-20		1840		8.02						
+USGS	10336660	1983-05-29		687		3.79						
+USGS	10336660	1983-11-17		548		3.45						
+USGS	10336660	1985-05-02		202		2.36						
+USGS	10336660	1986-03-08		1640		6.14						
+USGS	10336660	1987-04-27		170		2.26						
+USGS	10336660	1988-05-15		87.0		1.74						
+USGS	10336660	1989-05-07		291		2.87						
+USGS	10336660	1990-04-28		125		1.98	2		1990-02-18		2.01	1
+USGS	10336660	1991-05-25		177		2.37	2		1991-03-04		3.35	1
+USGS	10336660	1992-04-17		159		2.26						
+USGS	10336660	1993-05-31		534		3.59	2		1993-01-23		4.15	1
+USGS	10336660	1994-05-11		143		2.12						
+USGS	10336660	1995-05-01		636		3.85	2		1995-01-14		3.87	
+USGS	10336660	1996-05-16		963		4.74						
+USGS	10336660	1997-01-01		2940		9.82						
+USGS	10336660	1998-06-07		432		3.20						
+USGS	10336660	1999-05-26		429		3.24						
+USGS	10336660	2000-05-08		435		3.31						
+USGS	10336660	2001-05-15		163		2.20						
+USGS	10336660	2002-04-14		249	2	3.01						
+USGS	10336660	2003-05-28		372		3.01						
+USGS	10336660	2004-05-04		242		2.62						
+USGS	10336660	2005-05-19		765		4.17						
+USGS	10336660	2005-12-31		2260		7.43						
+USGS	10336660	2007-05-09		178		2.57						
+USGS	10336660	2008-05-17		343		3.01						
+USGS	10336660	2009-05-05		599		3.48						
+USGS	10336660	2010-06-06		462		3.09						
+USGS	10336660	2011-06-22		571		3.25						
+USGS	10336660	2012-04-26		483		3.20						
+USGS	10336660	2012-12-02		1230		3.53						
+USGS	10336660	2014-02-09		120		1.74	2,6		2014-05-15		9.18	6
+USGS	10336660	2015-02-08		577		11.13						
+USGS	10336660	2016-01-30		534		11.02						
+USGS	10336660	2017-01-08	21:15	1680	R	14.31						
+USGS	10336660	2018-04-07	09:45	1160		13.05						
+USGS	10336660	2019-06-05	19:15	452		10.96	2		2019-02-14	1345	13.20	1

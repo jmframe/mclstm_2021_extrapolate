@@ -1,0 +1,124 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:22:03 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 14400000 CHETCO RIVER NEAR BROOKINGS, OR
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	14400000	1964-12-22		85400	7	32.25						
+USGS	14400000	1970-01-22		44800		21.80						
+USGS	14400000	1971-01-16		65800		27.45						
+USGS	14400000	1972-01-22		54500		23.99						
+USGS	14400000	1972-12-17		14100		11.71						
+USGS	14400000	1974-01-15		29000		16.45						
+USGS	14400000	1975-03-18		38900		19.49						
+USGS	14400000	1976-01-08		25700		15.56						
+USGS	14400000	1977-03-09		15200		12.08						
+USGS	14400000	1977-12-14		46100		21.53						
+USGS	14400000	1979-01-11	10:00	36900		18.94						
+USGS	14400000	1979-11-24		33300		17.92						
+USGS	14400000	1980-12-02		53800		23.56						
+USGS	14400000	1981-12-06		51800		23.06						
+USGS	14400000	1983-03-30		46300		21.58						
+USGS	14400000	1984-02-13		44600		21.09						
+USGS	14400000	1984-11-11		26200		15.60						
+USGS	14400000	1986-02-22		36900		18.93	2		1986-02-22	1200	19.69	
+USGS	14400000	1987-02-02		26600		15.75	2		1987-02-02	1200	16.39	
+USGS	14400000	1987-12-10		36600		18.86	2		1988-01-10		19.73	
+USGS	14400000	1988-11-22		39800		19.75	2		1988-11-22	1200	19.93	
+USGS	14400000	1990-01-08		49300		22.38						
+USGS	14400000	1991-03-04		23400		14.57	2		1991-03-04	1200	15.17	
+USGS	14400000	1992-02-20		23000		14.36	2		1992-02-20	1200	15.09	
+USGS	14400000	1993-01-20		42100		20.40	2		1993-01-20	1200	21.09	
+USGS	14400000	1993-12-08		20000		13.22						
+USGS	14400000	1995-01-09		40200		19.85						
+USGS	14400000	1995-12-12		33600		17.98						
+USGS	14400000	1996-11-19		76100		28.56						
+USGS	14400000	1998-01-17	00:30	25900		14.16						
+USGS	14400000	1998-11-21		40000	1,2							
+USGS	14400000	2000-01-14	05:30	43700		19.33						
+USGS	14400000	2000-12-14	23:00	9860		9.39						
+USGS	14400000	2002-01-08	06:00	28800		15.12						
+USGS	14400000	2002-12-27	10:30	36800		17.41						
+USGS	14400000	2003-12-13	23:30	45500		19.85						
+USGS	14400000	2004-12-09	09:00	48200		20.63						
+USGS	14400000	2005-12-30	15:00	58300		23.42						
+USGS	14400000	2006-12-26		45900		19.95						
+USGS	14400000	2007-10-19	06:45	33500		16.69						
+USGS	14400000	2008-12-29	11:30	51100		21.44						
+USGS	14400000	2010-01-01	06:00	36200		17.42						
+USGS	14400000	2010-12-28	23:45	28100		15.15						
+USGS	14400000	2012-01-19	13:45	53700		22.18						
+USGS	14400000	2012-11-20	08:30	56600		22.98						
+USGS	14400000	2014-02-14	12:45	30200		15.75						
+USGS	14400000	2015-02-06	16:30	36900		17.60						
+USGS	14400000	2015-12-13	04:45	40000		18.41						
+USGS	14400000	2016-12-14	22:00	38700		18.07						
+USGS	14400000	2018-01-24	13:45	17100		11.67						

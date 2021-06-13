@@ -1,0 +1,106 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:14:02 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 04115265 FISH CREEK NEAR CRYSTAL, MI
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	04115265	1988-02-01		302		4.94						
+USGS	04115265	1989-03-15		502		5.42						
+USGS	04115265	1990-03-12		558		5.53						
+USGS	04115265	1990-11-28		227		4.85						
+USGS	04115265	1991-10-05		142		4.53						
+USGS	04115265	1993-01-05		232		4.68						
+USGS	04115265	1994-02-21		310		5.13						
+USGS	04115265	1994-11-06		199		4.62						
+USGS	04115265	1996-05-21		195		4.60						
+USGS	04115265	1997-02-21		320		4.99	2		1997-02-22		5.19	1
+USGS	04115265	1998-01-06		111		4.06						
+USGS	04115265	1999-04-24		173		4.47						
+USGS	04115265	2000-06-13		211		4.64						
+USGS	04115265	2001-05-16		233		4.72						
+USGS	04115265	2002-03-10		192		4.56						
+USGS	04115265	2003-03-18		120		4.09						
+USGS	04115265	2004-05-10		312		4.97						
+USGS	04115265	2005-06-14		224		4.69						
+USGS	04115265	2005-11-06		230		4.71						
+USGS	04115265	2007-03-14		209		4.63						
+USGS	04115265	2008-04-01		247		4.77						
+USGS	04115265	2009-04-26	18:30	312		4.97						
+USGS	04115265	2010-03-12	18:30	215		4.64						
+USGS	04115265	2011-04-28	22:00	215		4.64						
+USGS	04115265	2012-08-11	06:30	224		4.70						
+USGS	04115265	2013-04-18	21:00	330		5.02						
+USGS	04115265	2014-07-07	15:15	536		5.49						
+USGS	04115265	2015-04-10	18:30	192		4.56						
+USGS	04115265	2016-04-01	06:30	220		4.66						
+USGS	04115265	2017-06-18	23:45	197		4.63						
+USGS	04115265	2018-02-21	07:00	325		5.16						
+USGS	04115265	2019-03-15	04:45	384		5.31						

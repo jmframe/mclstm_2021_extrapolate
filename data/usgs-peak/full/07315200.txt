@@ -1,0 +1,130 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:17:18 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 07315200 E Fk Little Wichita Rv nr Henrietta, TX
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	07315200	1964-05-08		367		13.15						
+USGS	07315200	1965-05-28		685		18.47						
+USGS	07315200	1966-04-30		6920		26.55						
+USGS	07315200	1967-06-01		2470		23.38						
+USGS	07315200	1968-03-13		1040		19.35						
+USGS	07315200	1969-05-08		1500		21.22						
+USGS	07315200	1970-05-02		965		18.57						
+USGS	07315200	1971-08-25		391		14.20						
+USGS	07315200	1972-05-12		15500		28.85						
+USGS	07315200	1973-07-31		3310		24.29						
+USGS	07315200	1973-11-26		1180		20.08						
+USGS	07315200	1975-05-30		1360		21.41						
+USGS	07315200	1976-05-24		410		14.59						
+USGS	07315200	1977-03-28		3940		24.70						
+USGS	07315200	1978-04-10		578		16.65						
+USGS	07315200	1979-05-22		814		17.86						
+USGS	07315200	1980-09-29		1410		20.76						
+USGS	07315200	1981-03-04		709		16.71						
+USGS	07315200	1981-10-13		32500		31.70						
+USGS	07315200	1983-04-14		493		14.79						
+USGS	07315200	1983-10-08		610		15.97						
+USGS	07315200	1985-03-30		4960		25.51						
+USGS	07315200	1985-10-20		1140		19.93						
+USGS	07315200	1987-03-01		5590		26.12						
+USGS	07315200	1987-12-27		775		17.87						
+USGS	07315200	1989-05-16		17000		29.05						
+USGS	07315200	1990-04-26		13400		27.69						
+USGS	07315200	1991-05-09		204		11.10						
+USGS	07315200	1992-05-23		9900		26.72						
+USGS	07315200	1993-05-09		10400		27.76						
+USGS	07315200	1994-05-26		3960		24.27						
+USGS	07315200	1995-05-26		1740		20.73						
+USGS	07315200	1996-03-28		103		9.77						
+USGS	07315200	1997-02-21		8270		26.36						
+USGS	07315200	1998-03-17		4880		25.16						
+USGS	07315200	1999-05-11		643		15.17						
+USGS	07315200	2000-05-02		406		12.96						
+USGS	07315200	2001-02-17		3200		23.79						
+USGS	07315200	2002-06-06		816		16.37						
+USGS	07315200	2002-12-30		113		9.26						
+USGS	07315200	2004-04-25		1150		18.86						
+USGS	07315200	2005-01-05	00:30	1660		20.40						
+USGS	07315200	2006-05-04		555		14.31						
+USGS	07315200	2007-03-31	16:15	2910		23.13						
+USGS	07315200	2008-03-20		777		14.73						
+USGS	07315200	2009-05-01	09:15	4030		24.32						
+USGS	07315200	2010-05-15	18:00	4390		24.56						
+USGS	07315200	2011-09-18		193		10.48						
+USGS	07315200	2012-04-05	10:00	1670		20.20						
+USGS	07315200	2013-04-03		57.0		7.49						
+USGS	07315200	2014-07-17	22:45	654		14.63						
+USGS	07315200	2015-05-20	23:30	19600		28.79						
+USGS	07315200	2016-04-18	18:45	11900		27.53						
+USGS	07315200	2017-02-20	04:30	1670		20.99						
+USGS	07315200	2018-03-28	03:45	905		16.18						
+USGS	07315200	2019-06-04	19:00	2050		21.52						

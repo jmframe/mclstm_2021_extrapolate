@@ -1,0 +1,131 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:12:42 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 03049800 Little Pine Creek near Etna, PA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	03049800	1963-03-04		360		3.85						
+USGS	03049800	1964-08-03		284		3.45						
+USGS	03049800	1965-01-23		185		2.90	2		1965-02-25		3.60	1
+USGS	03049800	1966-02-13		320	2				1966-02-13	1200	4.14	1
+USGS	03049800	1967-03-06		160		2.75						
+USGS	03049800	1968-05-27		160		2.75						
+USGS	03049800	1969-04-05		62.0		2.01						
+USGS	03049800	1970-04-02		187		2.78						
+USGS	03049800	1971-03-13		248		3.05						
+USGS	03049800	1972-06-23		357		3.82						
+USGS	03049800	1973-05-24		314		3.52						
+USGS	03049800	1974-06-30		2040		6.06						
+USGS	03049800	1975-02-23		960		5.00						
+USGS	03049800	1976-02-18		89.0		1.96	1,2		1976-01-13		2.24	1
+USGS	03049800	1977-07-07		315		3.90						
+USGS	03049800	1978-05-18		233		2.06						
+USGS	03049800	1979-02-25		426		2.94	2		1979-02-23		4.63	1
+USGS	03049800	1980-08-04		84.0		1.63						
+USGS	03049800	1981-04-12		74.0	1							
+USGS	03049800	1982-07-17		305		2.30	2		1982-01-23		2.66	1
+USGS	03049800	1983-05-22		361		2.44						
+USGS	03049800	1983-12-28		135		1.70						
+USGS	03049800	1985-03-29		240		2.10						
+USGS	03049800	1986-05-30		7190		10.28						
+USGS	03049800	1987-05-26		1380		6.06						
+USGS	03049800	1988-02-02		78.0		4.05						
+USGS	03049800	1989-05-10		193		3.71						
+USGS	03049800	1990-07-12		240	2,8							
+USGS	03049800	1990-12-30		149		5.53						
+USGS	03049800	1992-08-28		1430		3.48						
+USGS	03049800	1993-06-08		257		3.85						
+USGS	03049800	1994-01-28		228		3.88	2		1994-01-28	1200	3.96	1
+USGS	03049800	1995-06-03		477		4.43						
+USGS	03049800	1996-06-19		519		4.24						
+USGS	03049800	1997-05-20		222		3.59						
+USGS	03049800	1998-04-26		408		4.22						
+USGS	03049800	1999-07-28		174		3.58	2		1999-01-15		4.32	1
+USGS	03049800	2000-02-14		169		3.65						
+USGS	03049800	2001-07-01		230		3.83						
+USGS	03049800	2002-03-26		164		3.63						
+USGS	03049800	2003-07-23		216		3.79						
+USGS	03049800	2004-09-17		3700		8.26						
+USGS	03049800	2005-01-06		580		4.62						
+USGS	03049800	2006-04-22		206		5.80						
+USGS	03049800	2007-08-09		1020		5.32						
+USGS	03049800	2008-03-04		360		4.23						
+USGS	03049800	2008-12-19		238		3.97	2		2008-12-24		3.98	1
+USGS	03049800	2010-05-22		531		4.58						
+USGS	03049800	2011-02-28		1070		5.53						
+USGS	03049800	2012-05-08		261		3.83						
+USGS	03049800	2013-07-16		329		4.04						
+USGS	03049800	2014-08-12	17:05	372		4.16						
+USGS	03049800	2015-09-29	19:15	541		4.57	2		2015-03-04	0340	4.60	1
+USGS	03049800	2016-08-26		191		3.62						
+USGS	03049800	2016-12-18		256		3.84						
+USGS	03049800	2018-08-13	14:30	1160		5.69						
+USGS	03049800	2019-07-11	11:45	1580		6.57						

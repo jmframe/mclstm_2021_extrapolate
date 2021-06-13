@@ -1,0 +1,133 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:11:19 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02152100 FIRST BROAD RIVER NEAR CASAR, NC
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02152100	1959-10-10		3700		11.45						
+USGS	02152100	1961-06-22		3650		11.33						
+USGS	02152100	1961-12-12		2410		8.44						
+USGS	02152100	1963-03-12		2460		8.52						
+USGS	02152100	1964-04-07		2190		8.08						
+USGS	02152100	1964-10-04		4740		13.58						
+USGS	02152100	1966-02-13		3360		10.93						
+USGS	02152100	1967-07-07		1830		7.31						
+USGS	02152100	1968-05-12		2260		8.39						
+USGS	02152100	1969-04-18		1940		7.59						
+USGS	02152100	1970-08-10		6580		15.22						
+USGS	02152100	1971-01-05		1400		6.19						
+USGS	02152100	1971-12-07		1860		7.40						
+USGS	02152100	1973-05-28		3460		10.76						
+USGS	02152100	1974-04-04		1450		6.34						
+USGS	02152100	1975-03-14		5170		13.38						
+USGS	02152100	1975-10-17		7760		16.70						
+USGS	02152100	1976-10-08		4540		12.49						
+USGS	02152100	1977-11-06		6210		14.81						
+USGS	02152100	1979-02-25		1790		7.24						
+USGS	02152100	1979-10-01		2760		9.54						
+USGS	02152100	1981-09-06		890		4.65						
+USGS	02152100	1982-02-03		2400		7.76						
+USGS	02152100	1983-04-10		6340		13.79						
+USGS	02152100	1984-02-13		5300		12.50						
+USGS	02152100	1985-08-29		3250		9.26						
+USGS	02152100	1985-11-04		1160		5.11						
+USGS	02152100	1987-03-01		5600		12.80						
+USGS	02152100	1987-11-10		620		3.50						
+USGS	02152100	1989-09-22		2960		9.13						
+USGS	02152100	1989-10-01		3380		9.93						
+USGS	02152100	1990-10-12		4290		11.58						
+USGS	02152100	1992-04-21		3670		10.47						
+USGS	02152100	1993-03-24		2500		8.26						
+USGS	02152100	1994-08-17		4500		11.92						
+USGS	02152100	1995-01-14		7790		15.58						
+USGS	02152100	1996-12-01		2080		6.84						
+USGS	02152100	1998-01-08		2740		8.13						
+USGS	02152100	1999-04-30		944		4.31						
+USGS	02152100	2000-03-20		1860		6.35						
+USGS	02152100	2001-03-29		851		4.07						
+USGS	02152100	2002-01-23		519		3.03						
+USGS	02152100	2003-07-13		6670		14.32						
+USGS	02152100	2004-09-08		12500		19.89						
+USGS	02152100	2005-07-07		5120		11.82						
+USGS	02152100	2005-10-07		2610		7.67						
+USGS	02152100	2007-03-02		2820		8.04						
+USGS	02152100	2008-08-27		675		3.65						
+USGS	02152100	2009-08-17		2790		7.99						
+USGS	02152100	2010-01-25		5280		12.56						
+USGS	02152100	2010-12-01		3100		8.51						
+USGS	02152100	2012-05-14		4210		10.25						
+USGS	02152100	2013-05-06		5530		12.16						
+USGS	02152100	2014-09-13		2610		7.67						
+USGS	02152100	2015-04-19		1380		5.29						
+USGS	02152100	2015-12-29	07:30	2690		7.81						
+USGS	02152100	2017-04-24	05:30	1900		6.37						
+USGS	02152100	2018-04-16		2090		6.73						
+USGS	02152100	2018-10-11	14:45	3300		8.83						

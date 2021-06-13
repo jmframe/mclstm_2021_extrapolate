@@ -1,0 +1,110 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:22:01 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 14362250 STAR GULCH NEAR RUCH, OR
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	14362250	1983-12-14		153		3.11						
+USGS	14362250	1984-11-28		153		3.11						
+USGS	14362250	1986-02-17		110		2.86						
+USGS	14362250	1987-02-02		91.0		2.74						
+USGS	14362250	1988-01-15		37.0		2.22						
+USGS	14362250	1989-03-10		56.0		2.44						
+USGS	14362250	1990-01-08		45.0		2.32						
+USGS	14362250	1991-03-04		34.0		2.16						
+USGS	14362250	1991-11-18		6.00		1.42	2		1991-12-18		1.42	
+USGS	14362250	1993-01-20		144		3.07						
+USGS	14362250	1993-12-08		40.0		2.25						
+USGS	14362250	1995-03-20		226		3.43						
+USGS	14362250	1996-01-27		111		2.88						
+USGS	14362250	1997-01-01	06:00	1050		5.43						
+USGS	14362250	1998-03-23	14:30	165		2.92						
+USGS	14362250	1999-02-07	13:30	168		2.97						
+USGS	14362250	2000-01-14	09:00	91.0		2.47						
+USGS	14362250	2000-11-29	13:00	4.60		1.21						
+USGS	14362250	2001-12-14	01:30	65.0		2.24						
+USGS	14362250	2003-00-00		465	Bm	4.10	Bm					
+USGS	14362250	2004-02-17	21:00	179		3.03						
+USGS	14362250	2005-01-18	12:30	56.0		2.15						
+USGS	14362250	2005-12-30	17:30	224		3.23						
+USGS	14362250	2006-12-26	15:30	91.0		2.47						
+USGS	14362250	2008-01-04	12:15	80.0		2.38						
+USGS	14362250	2009-03-16	17:30	18.0		1.76						
+USGS	14362250	2010-04-28	00:15	33.0		1.90						
+USGS	14362250	2010-12-29	06:00	51.0		2.15						
+USGS	14362250	2012-03-30	16:00	92.0		2.55						
+USGS	14362250	2012-12-02	09:30	117		2.66						
+USGS	14362250	2014-03-10	03:45	19.0		1.77						
+USGS	14362250	2015-02-06	14:00	147		2.99						
+USGS	14362250	2016-01-17	16:45	339		3.78						
+USGS	14362250	2017-01-18	18:45	532		4.34						
+USGS	14362250	2018-01-24	17:15	12.2		1.56						
+USGS	14362250	2019-01-20	08:15	83.0		2.50						

@@ -1,0 +1,108 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:11:13 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02140991 JOHNS RIVER AT ARNEYS STORE, NC
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02140991	1985-11-02		5320		11.90						
+USGS	02140991	1987-03-01		7310		14.01						
+USGS	02140991	1988-04-04		1860		4.68						
+USGS	02140991	1989-09-22		11000		16.17						
+USGS	02140991	1989-11-16		11700		16.55						
+USGS	02140991	1990-10-13		15900		18.03						
+USGS	02140991	1992-06-04		8130		14.60						
+USGS	02140991	1993-03-24		12300		16.77						
+USGS	02140991	1994-08-17		29000		25.23						
+USGS	02140991	1995-01-15		25700		23.98						
+USGS	02140991	1996-08-12		16500		19.31						
+USGS	02140991	1996-12-01		5480		12.73						
+USGS	02140991	1998-01-08		8570		15.74						
+USGS	02140991	1999-01-24		1480		4.30						
+USGS	02140991	1999-11-26		4290		9.55						
+USGS	02140991	2001-03-30		2520		6.04						
+USGS	02140991	2002-09-27		3590		8.15						
+USGS	02140991	2003-04-10		4880		10.73						
+USGS	02140991	2004-09-08		39000	9	28.60						
+USGS	02140991	2005-07-07		8110		13.01						
+USGS	02140991	2005-11-29		4850		9.07						
+USGS	02140991	2007-01-01		4450		8.51						
+USGS	02140991	2008-08-27		7720		12.63						
+USGS	02140991	2009-05-29		5730		10.29						
+USGS	02140991	2010-01-25		8650		13.55						
+USGS	02140991	2011-04-16		12200		16.66						
+USGS	02140991	2011-11-29		8110		13.01						
+USGS	02140991	2013-05-06		14100		19.21						
+USGS	02140991	2013-12-23		4750		9.46						
+USGS	02140991	2015-04-20		10000		15.87						
+USGS	02140991	2016-02-03		8540		14.21						
+USGS	02140991	2017-05-25		7440		12.87						
+USGS	02140991	2018-05-19	04:45	15900		20.29						
+USGS	02140991	2019-06-09	20:30	23300		23.44						

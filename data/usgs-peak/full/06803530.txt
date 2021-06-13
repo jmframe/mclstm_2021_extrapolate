@@ -1,0 +1,123 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:16:18 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 06803530 Rock Creek near Ceresco, Nebr.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	06803530	1970-06-11		522		6.11						
+USGS	06803530	1971-03-11		2100		10.10						
+USGS	06803530	1972-05-01		4120		14.20						
+USGS	06803530	1973-03-31		1660		9.70						
+USGS	06803530	1973-10-11		2720		12.67						
+USGS	06803530	1975-06-23		700		5.60						
+USGS	06803530	1976-02-16		132		2.54						
+USGS	06803530	1977-09-03		2390		11.53						
+USGS	06803530	1978-04-09		1960		10.01	2		1978-03-13		10.64	1
+USGS	06803530	1979-03-03		3000		13.37						
+USGS	06803530	1980-06-02		2040		11.52	6					
+USGS	06803530	1981-08-05		3980		16.84						
+USGS	06803530	1982-06-15		10800		18.84						
+USGS	06803530	1983-06-18		2470		12.51						
+USGS	06803530	1984-06-12		5800		17.47						
+USGS	06803530	1985-07-19		3160		13.41						
+USGS	06803530	1986-08-21		2860		12.50						
+USGS	06803530	1987-08-25		23300		19.60	3					
+USGS	06803530	1988-09-29		1550		9.54						
+USGS	06803530	1989-09-09		4380		15.59						
+USGS	06803530	1990-07-26		6240		17.36						
+USGS	06803530	1991-07-09		2120		10.56						
+USGS	06803530	1992-07-12		1290		7.81						
+USGS	06803530	1993-07-23		15600		18.36						
+USGS	06803530	1994-06-23		4860		15.86						
+USGS	06803530	1995-05-07		1600		9.13						
+USGS	06803530	1996-05-27		3910		14.27						
+USGS	06803530	1997-02-18		846		5.79	6					
+USGS	06803530	1998-05-22		6600		20.50						
+USGS	06803530	1999-06-27		4000		17.42						
+USGS	06803530	2000-06-26		269		5.62						
+USGS	06803530	2001-05-31	05:45	1040		8.88	2		2001-01-01		0.00	1
+USGS	06803530	2002-08-23		639		8.24						
+USGS	06803530	2003-05-04		804		9.11						
+USGS	06803530	2004-05-30		630		6.45						
+USGS	06803530	2005-05-12		1980		10.41						
+USGS	06803530	2006-03-31		764		6.68						
+USGS	06803530	2007-05-06		5840		16.85						
+USGS	06803530	2008-06-05		3100		13.29						
+USGS	06803530	2008-10-22		3670		14.01						
+USGS	06803530	2010-06-21		7280		18.12						
+USGS	06803530	2011-05-20		1830		10.11						
+USGS	06803530	2012-04-15		887		6.64						
+USGS	06803530	2013-05-30		3350		13.72	6					
+USGS	06803530	2014-05-12		8350		24.15						
+USGS	06803530	2015-05-07		5160		21.30						
+USGS	06803530	2016-05-11		3170		17.96						
+USGS	06803530	2017-05-20		3750		19.23						
+USGS	06803530	2018-09-04	16:00	3300		18.24						

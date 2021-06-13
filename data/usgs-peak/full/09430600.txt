@@ -1,0 +1,127 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:18:49 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 09430600 MOGOLLON CREEK NEAR CLIFF, NM
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	09430600	1967-08-12		10800		13.70	3					
+USGS	09430600	1968-02-26		380		4.03	3					
+USGS	09430600	1969-01-26		180		3.33	3					
+USGS	09430600	1970-07-30		377		4.01	3					
+USGS	09430600	1971-08-21		944		5.22	3					
+USGS	09430600	1971-10-25		1720		6.28	3					
+USGS	09430600	1972-10-20		4620		9.28	3					
+USGS	09430600	1974-09-21		57.0		2.76	3					
+USGS	09430600	1975-09-07		2130		6.85	3					
+USGS	09430600	1976-02-10		665		4.78	3					
+USGS	09430600	1977-08-18		156		3.17	3					
+USGS	09430600	1978-03-01		2600		7.44	3					
+USGS	09430600	1978-12-18		10100		12.40	3					
+USGS	09430600	1980-02-15		1070		4.69	3					
+USGS	09430600	1981-08-02		431		3.33	3					
+USGS	09430600	1982-07-31		263		2.90	3					
+USGS	09430600	1983-08-01		358		3.20	3					
+USGS	09430600	1983-10-02		1920		6.50	3					
+USGS	09430600	1984-12-27		6430		10.10	3					
+USGS	09430600	1986-02-16		946		4.69	3					
+USGS	09430600	1987-07-30		220		2.62	3					
+USGS	09430600	1988-09-21		2210		6.62	3					
+USGS	09430600	1989-09-04		117		1.92	3					
+USGS	09430600	1989-10-05		609		3.83	3					
+USGS	09430600	1991-03-06		626		3.87	3					
+USGS	09430600	1992-05-06		830		4.39	3					
+USGS	09430600	1993-01-08		2970		7.22	3					
+USGS	09430600	1994-03-20		288		2.65	3					
+USGS	09430600	1994-11-12		4420		8.55	3					
+USGS	09430600	1996-08-21		1010		4.56	3					
+USGS	09430600	1997-09-22		1230		5.97	3					
+USGS	09430600	1998-03-26		750		4.82	3					
+USGS	09430600	1999-08-05		203		3.29	3					
+USGS	09430600	2000-08-11		65.0		2.44	3					
+USGS	09430600	2000-10-11		2120		7.21	3					
+USGS	09430600	2002-09-11		919		5.33	3					
+USGS	09430600	2003-03-24		87.0		2.60	3					
+USGS	09430600	2004-03-08		342		3.67	3					
+USGS	09430600	2005-02-12		6600	2							
+USGS	09430600	2006-08-17		2110		5.34						
+USGS	09430600	2007-04-29		666		4.96						
+USGS	09430600	2008-01-28		6800	1,2							
+USGS	09430600	2009-09-19		94.0		1.83						
+USGS	09430600	2010-01-22		2730		5.81						
+USGS	09430600	2011-08-13		371		2.73						
+USGS	09430600	2012-09-06		277	8,C	2.37	2					
+USGS	09430600	2013-09-16		5000	C	7.13						
+USGS	09430600	2014-09-22		5150	C	7.20						
+USGS	09430600	2015-09-22		3690	C	6.44						
+USGS	09430600	2016-09-08	04:22	2900	C	6.01						
+USGS	09430600	2016-12-22	10:07	9420	C	8.81						
+USGS	09430600	2018-09-02	08:45	170	C	3.13						
+USGS	09430600	2019-09-16	23:30	5560	C	7.11						

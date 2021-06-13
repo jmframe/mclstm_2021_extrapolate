@@ -1,0 +1,121 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:11:43 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02298123 PRAIRIE CREEK NEAR FORT OGDEN FL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02298123	1964-09-16		2200		11.97						
+USGS	02298123	1965-07-21		1430		10.84						
+USGS	02298123	1966-08-16		1130		10.26						
+USGS	02298123	1966-10-09		1280		10.56						
+USGS	02298123	1968-06-10		2860		12.88						
+USGS	02298123	1978-08-06		1160		10.92						
+USGS	02298123	1979-09-16		2560		12.54						
+USGS	02298123	1979-10-01		4280		14.19						
+USGS	02298123	1981-09-19		1050		10.91						
+USGS	02298123	1982-06-25		4800		13.42						
+USGS	02298123	1983-02-17		1970		11.07						
+USGS	02298123	1984-03-14		3810		12.84						
+USGS	02298123	1985-09-06		1080		10.36						
+USGS	02298123	1986-06-24		1470		10.91						
+USGS	02298123	1987-04-04		1130		10.43						
+USGS	02298123	1988-09-10		1740		11.28						
+USGS	02298123	1989-08-15		1060		10.42						
+USGS	02298123	1990-08-20		1420		10.93						
+USGS	02298123	1991-08-06		1450		10.97						
+USGS	02298123	1992-06-29		2800		12.52						
+USGS	02298123	1993-09-04		937		10.37						
+USGS	02298123	1994-09-16		1770		11.61						
+USGS	02298123	1995-08-26		5320		13.75						
+USGS	02298123	1995-10-11		1670		11.09						
+USGS	02298123	1997-09-28		990		10.71						
+USGS	02298123	1998-03-21		1960		11.52						
+USGS	02298123	1999-06-30		2080		11.82						
+USGS	02298123	1999-10-06		540		9.11						
+USGS	02298123	2001-09-15		2540		12.13						
+USGS	02298123	2002-07-02		2680		11.87						
+USGS	02298123	2003-06-23		3180		12.30						
+USGS	02298123	2004-08-16		2500		11.97						
+USGS	02298123	2005-06-06		3050		12.45						
+USGS	02298123	2006-09-11		1550		11.10						
+USGS	02298123	2007-07-28		463		7.97						
+USGS	02298123	2008-08-28		1730		11.28						
+USGS	02298123	2009-07-06		1410		10.81						
+USGS	02298123	2010-07-07	06:15	1330		10.70						
+USGS	02298123	2011-09-08	08:45	1010		10.01						
+USGS	02298123	2012-08-30	07:15	1350		10.82						
+USGS	02298123	2013-07-03		3320		12.54						
+USGS	02298123	2014-07-24		820		9.47						
+USGS	02298123	2015-08-31		2480		12.08						
+USGS	02298123	2016-01-29		2290		11.67						
+USGS	02298123	2017-09-11		6770	9	14.83						
+USGS	02298123	2018-06-14	15:15	1150		10.37						
+USGS	02298123	2019-08-19	14:30	1480		10.78						

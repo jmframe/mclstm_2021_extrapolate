@@ -1,0 +1,130 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:15:15 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 05593900 EAST FORK SHOAL CREEK NEAR COFFEEN, IL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	05593900	1964-04-06		796		9.88						
+USGS	05593900	1965-04-25		870		10.25						
+USGS	05593900	1966-05-18		1970		11.51						
+USGS	05593900	1966-12-07		5910		14.45						
+USGS	05593900	1967-12-21		3090		12.64						
+USGS	05593900	1969-01-29		2180		11.77						
+USGS	05593900	1969-10-12		4630		14.27						
+USGS	05593900	1971-02-05		1930		11.94						
+USGS	05593900	1971-12-15		1870		11.86						
+USGS	05593900	1973-06-27		2960		12.48						
+USGS	05593900	1974-05-31		2880		12.42						
+USGS	05593900	1975-02-23		1890		12.07						
+USGS	05593900	1976-03-05		999		10.52						
+USGS	05593900	1977-03-28		1850		12.37						
+USGS	05593900	1978-03-25		2010		12.12						
+USGS	05593900	1979-04-11		4530		14.24						
+USGS	05593900	1980-03-30		1210		10.94						
+USGS	05593900	1981-05-18		995		10.51						
+USGS	05593900	1982-07-20		3600		13.65						
+USGS	05593900	1983-04-14		2720		12.97						
+USGS	05593900	1984-04-21		2120		12.26						
+USGS	05593900	1985-02-22		1770		11.80						
+USGS	05593900	1985-12-11		3110		13.18						
+USGS	05593900	1986-10-04		1920		11.90						
+USGS	05593900	1988-02-01		1710		11.62						
+USGS	05593900	1989-05-25		1260		10.88						
+USGS	05593900	1990-05-26		5170		14.60						
+USGS	05593900	1990-12-29		3410		13.43						
+USGS	05593900	1992-04-18		410		7.40						
+USGS	05593900	1993-04-25		2550		12.64						
+USGS	05593900	1994-04-12		2870		12.97						
+USGS	05593900	1995-05-18		1990		12.59						
+USGS	05593900	1996-04-29		2690		13.66						
+USGS	05593900	1997-02-27		1880		12.63						
+USGS	05593900	1998-08-05		5030		14.75						
+USGS	05593900	1999-02-07		2590		13.04						
+USGS	05593900	2000-08-24		1540		11.77						
+USGS	05593900	2000-10-05		1830		12.17						
+USGS	05593900	2002-05-07		5680		14.56						
+USGS	05593900	2003-05-10		1920		11.81						
+USGS	05593900	2004-01-04		2770		12.99						
+USGS	05593900	2005-01-05		3140		13.00						
+USGS	05593900	2006-03-12		1360		10.49						
+USGS	05593900	2007-01-15		1900		11.78						
+USGS	05593900	2008-09-14		5070		14.25						
+USGS	05593900	2009-02-11		3010		13.32						
+USGS	05593900	2010-07-24	23:00	7790		14.89						
+USGS	05593900	2011-06-18	12:30	2940		13.23						
+USGS	05593900	2012-09-01	07:15	2090		12.63						
+USGS	05593900	2013-04-18	20:30	3950		13.71						
+USGS	05593900	2014-02-20	15:15	1760		12.31						
+USGS	05593900	2015-04-10	00:45	2670		12.80						
+USGS	05593900	2015-12-27	00:30	4950		14.09						
+USGS	05593900	2017-04-30	15:45	3450		13.49						
+USGS	05593900	2018-02-21	05:15	1770		12.34						
+USGS	05593900	2019-05-23	07:00	2070		12.69						

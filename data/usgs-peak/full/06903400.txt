@@ -1,0 +1,130 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:16:33 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 06903400 Chariton River near Chariton, IA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	06903400	1947-06-05		11000	7	21.65						
+USGS	06903400	1960-03-00		15000	2,7,Bd	23.00	5,Bd					
+USGS	06903400	1966-02-09		1360		15.90						
+USGS	06903400	1967-06-21		4930		19.53						
+USGS	06903400	1968-04-23		5660		19.90						
+USGS	06903400	1969-07-13		1640		16.77						
+USGS	06903400	1970-08-08		6320		20.15						
+USGS	06903400	1970-10-09		2080		17.28	2		1971-02-19		17.60	1
+USGS	06903400	1972-09-14		2820		18.08						
+USGS	06903400	1973-04-16		2740		18.02						
+USGS	06903400	1973-10-12		6300		20.20						
+USGS	06903400	1975-06-28		1670		16.82						
+USGS	06903400	1976-06-14		5460		20.35						
+USGS	06903400	1977-08-27		1490		17.27						
+USGS	06903400	1978-09-21		3660		19.79						
+USGS	06903400	1979-03-24		1890		17.75	2		1979-03-04		18.24	1
+USGS	06903400	1980-06-02		7000		20.84						
+USGS	06903400	1981-07-04		16600		23.14						
+USGS	06903400	1982-07-16		4650		19.85						
+USGS	06903400	1982-10-09		6530		20.74						
+USGS	06903400	1984-04-30		1970		17.07	2		1984-06-08		17.17	
+USGS	06903400	1985-07-31		5120		19.01						
+USGS	06903400	1986-05-17		3460		19.04						
+USGS	06903400	1987-08-26		6720		19.62						
+USGS	06903400	1987-11-29		1840		16.40						
+USGS	06903400	1989-09-09		1200		15.01						
+USGS	06903400	1990-05-25		3730		18.31						
+USGS	06903400	1991-04-19		6010		19.07						
+USGS	06903400	1992-09-15		37700		29.32						
+USGS	06903400	1993-07-05		14900		22.60						
+USGS	06903400	1994-03-05		1660		16.10						
+USGS	06903400	1995-05-08		4120		18.22						
+USGS	06903400	1996-05-10		5040		18.30						
+USGS	06903400	1997-02-21		3620		17.46						
+USGS	06903400	1998-05-07		4240		17.83						
+USGS	06903400	1998-10-18		2460		17.41						
+USGS	06903400	2000-06-26		1490		16.26						
+USGS	06903400	2001-05-14		3030		17.70						
+USGS	06903400	2002-05-11		2880		17.98						
+USGS	06903400	2003-05-05		748		12.61						
+USGS	06903400	2004-08-28		3050		17.78						
+USGS	06903400	2005-04-12		2950		17.31						
+USGS	06903400	2006-05-01	10:00	479		10.34						
+USGS	06903400	2007-05-08		6340		19.28						
+USGS	06903400	2008-07-28		6410		20.33						
+USGS	06903400	2009-08-27		3670		18.65						
+USGS	06903400	2010-07-20		6250		20.23						
+USGS	06903400	2011-06-27		3550		18.13						
+USGS	06903400	2012-05-02		2410		16.86						
+USGS	06903400	2013-04-18		10000		20.98						
+USGS	06903400	2014-09-10		4640		18.99						
+USGS	06903400	2015-06-25		7180		20.79						
+USGS	06903400	2015-12-14		3720		18.30						
+USGS	06903400	2017-04-06		2580	2	18.10	1					
+USGS	06903400	2018-09-06	06:45	1550		15.27	2		2018-09-06	0615	15.27	
+USGS	06903400	2019-05-29	08:45	6900		19.89	2		2018-10-09	1900	19.98	

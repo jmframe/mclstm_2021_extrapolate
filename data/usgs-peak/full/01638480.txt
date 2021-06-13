@@ -1,0 +1,123 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:09:55 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 01638480 CATOCTIN CREEK AT TAYLORSTOWN, VA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	01638480	1971-09-12		4600		11.03	3					
+USGS	01638480	1972-06-22		23800		23.83	3					
+USGS	01638480	1973-05-28		2640		7.90	3					
+USGS	01638480	1973-12-26		1920		6.48	3					
+USGS	01638480	1975-09-25		4920		11.43	3					
+USGS	01638480	1976-01-01		3620		12.23	3					
+USGS	01638480	1976-10-09		15900		19.92	3					
+USGS	01638480	1978-01-26		4180		10.43	3					
+USGS	01638480	1979-09-06		5850		12.47	3					
+USGS	01638480	1979-10-01		4040		10.15	3					
+USGS	01638480	1981-02-11		1090		4.39	3					
+USGS	01638480	1982-06-17		3000		8.45	3					
+USGS	01638480	1983-04-10		4440		10.77	3					
+USGS	01638480	1984-08-13		7320		15.32						
+USGS	01638480	1985-02-12		5440		13.08						
+USGS	01638480	1986-03-15		1640		7.00						
+USGS	01638480	1987-07-01		13200		17.99						
+USGS	01638480	1988-05-18		5370		12.98						
+USGS	01638480	1989-05-16		3670		10.39						
+USGS	01638480	1990-05-29		856		5.48						
+USGS	01638480	1990-10-23		2960		9.20						
+USGS	01638480	1992-04-22		2280		8.07						
+USGS	01638480	1992-12-11		8430		15.69						
+USGS	01638480	1993-12-05		3690		10.41						
+USGS	01638480	1995-07-11		2410		8.29						
+USGS	01638480	1996-01-19		6820		14.43						
+USGS	01638480	1996-12-13		3570		10.21						
+USGS	01638480	1998-03-21		7140		13.43						
+USGS	01638480	1999-09-30		3180		9.40						
+USGS	01638480	2000-02-19		862		5.53						
+USGS	01638480	2001-03-30		1800		7.29						
+USGS	01638480	2002-06-15		441		4.50						
+USGS	01638480	2003-09-23		9800		15.59						
+USGS	01638480	2004-09-28		9440		15.31						
+USGS	01638480	2005-03-28		6440		12.81						
+USGS	01638480	2005-11-30		2720		8.74						
+USGS	01638480	2007-03-16		1330		6.47						
+USGS	01638480	2008-05-12		9270		14.73						
+USGS	01638480	2008-12-12		1760		6.51						
+USGS	01638480	2010-01-25		4270		9.77						
+USGS	01638480	2011-04-28		4170		9.66						
+USGS	01638480	2011-10-20		2890		8.09						
+USGS	01638480	2012-10-30		9090		14.57						
+USGS	01638480	2014-05-16		9330		14.78						
+USGS	01638480	2015-09-29		1060	1,2							
+USGS	01638480	2016-02-03		2870		8.07						
+USGS	01638480	2017-07-29	10:45	3460		8.81						
+USGS	01638480	2018-09-28	03:45	6460		12.30						
+USGS	01638480	2019-03-21	21:30	6440		12.08						

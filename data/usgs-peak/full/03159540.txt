@@ -1,0 +1,128 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:12:51 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 03159540 Shade River near Chester OH
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	03159540	1966-02-14		6270		24.67						
+USGS	03159540	1967-03-07		4940		22.48						
+USGS	03159540	1968-05-25		8170		27.38						
+USGS	03159540	1969-08-10		2850		17.17						
+USGS	03159540	1970-04-03		4500		21.55						
+USGS	03159540	1971-02-23		2920		17.10						
+USGS	03159540	1972-04-14		3590		19.27						
+USGS	03159540	1972-12-09		3640		19.39						
+USGS	03159540	1974-01-11		4880		22.34						
+USGS	03159540	1975-04-25		4550		21.66						
+USGS	03159540	1975-10-18		3410		18.81						
+USGS	03159540	1977-03-13		2180		14.85						
+USGS	03159540	1978-03-15		3630		19.31						
+USGS	03159540	1978-12-08		4400	2							
+USGS	03159540	1980-03-05		2750		16.84	2		1980-07-10		17.80	
+USGS	03159540	1981-06-07		3320		19.63						
+USGS	03159540	1982-06-04		2780		18.17						
+USGS	03159540	1983-05-04		2800		17.64						
+USGS	03159540	1984-05-29		2820		17.70						
+USGS	03159540	1985-03-31		2890		17.88						
+USGS	03159540	1985-11-18		2970		18.12						
+USGS	03159540	1986-12-03		2730		17.44						
+USGS	03159540	1988-03-05		2060		15.64						
+USGS	03159540	1989-02-16		5010		22.62						
+USGS	03159540	1990-08-23		3300		18.98						
+USGS	03159540	1990-12-19		4100		20.82						
+USGS	03159540	1991-12-10		3660		19.91						
+USGS	03159540	1993-03-05		3000		18.40						
+USGS	03159540	1994-01-29		5660		24.28						
+USGS	03159540	1995-05-15		4430		21.91						
+USGS	03159540	1996-05-05		3850		20.57						
+USGS	03159540	1997-03-02		15600		31.44						
+USGS	03159540	1998-06-28		3850		20.56						
+USGS	03159540	1999-08-26		954		11.01						
+USGS	03159540	2000-01-04		1920		15.10						
+USGS	03159540	2001-05-22		4400		20.77						
+USGS	03159540	2002-03-21		5390		22.81						
+USGS	03159540	2003-02-23		3770		19.36						
+USGS	03159540	2004-09-18		11100		30.04						
+USGS	03159540	2005-03-29		3050		17.46						
+USGS	03159540	2006-01-23		2980		17.25						
+USGS	03159540	2007-02-21		3040		17.42						
+USGS	03159540	2008-06-05		4200		20.37						
+USGS	03159540	2008-12-25		2350		15.20						
+USGS	03159540	2010-05-03		6180		24.31						
+USGS	03159540	2011-04-20		3650		19.12						
+USGS	03159540	2012-03-01		3160		17.90						
+USGS	03159540	2013-01-31		3160		17.77						
+USGS	03159540	2014-04-30		3500		18.71						
+USGS	03159540	2015-03-11		3720		19.28						
+USGS	03159540	2016-06-23		3790		19.64						
+USGS	03159540	2017-03-01		4070		20.07						
+USGS	03159540	2018-04-04	13:00	5550		23.14						
+USGS	03159540	2019-02-07	15:30	5300		22.65						

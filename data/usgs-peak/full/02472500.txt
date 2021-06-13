@@ -1,0 +1,156 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:12:29 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02472500 BOUIE CREEK NR HATTIESBURG, MS
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02472500	1900-04-00		50000	2,7,Bd	33.50	5,Bd					
+USGS	02472500	1939-03-30		3480		13.74						
+USGS	02472500	1940-07-09		4590		17.08						
+USGS	02472500	1941-03-07		6900		18.06						
+USGS	02472500	1941-12-24		8040		18.30						
+USGS	02472500	1943-03-21		24000		25.70						
+USGS	02472500	1944-03-24		5150		15.02						
+USGS	02472500	1945-04-25		4400		13.97						
+USGS	02472500	1945-12-25		5230		15.08						
+USGS	02472500	1947-01-21		9710		21.07						
+USGS	02472500	1948-03-06		6820		18.48						
+USGS	02472500	1949-04-02		7730		19.46						
+USGS	02472500	1950-02-15		12400		21.94						
+USGS	02472500	1951-03-29		6830		18.22						
+USGS	02472500	1952-02-03		1940		9.08						
+USGS	02472500	1953-05-05		7540		18.81						
+USGS	02472500	1953-12-09		3000		11.66						
+USGS	02472500	1955-04-13		9250		19.16						
+USGS	02472500	1956-02-04		5900		17.20						
+USGS	02472500	1957-04-05		4120		14.24						
+USGS	02472500	1958-09-23		11400		21.31						
+USGS	02472500	1959-04-22		2140		9.61						
+USGS	02472500	1959-11-05		3700		13.30						
+USGS	02472500	1961-02-22		34800		26.54						
+USGS	02472500	1962-04-29		11500		21.28						
+USGS	02472500	1963-01-21		1740		9.48						
+USGS	02472500	1964-04-28		4000		13.96						
+USGS	02472500	1964-12-12		4430		14.82						
+USGS	02472500	1966-02-13		9120		19.91						
+USGS	02472500	1967-05-06		2400		10.25						
+USGS	02472500	1967-12-16		4100		14.17						
+USGS	02472500	1969-04-15		5850		16.17						
+USGS	02472500	1970-05-03		2120		9.31						
+USGS	02472500	1971-03-03		4350		13.71						
+USGS	02472500	1971-12-07		4730		14.35						
+USGS	02472500	1973-03-26		8300		19.92						
+USGS	02472500	1974-04-14		45500		28.18						
+USGS	02472500	1975-05-09		10900		20.93						
+USGS	02472500	1976-04-01		7590		19.28						
+USGS	02472500	1977-04-22		6070		17.38						
+USGS	02472500	1978-01-26		2950		10.52						
+USGS	02472500	1979-03-05		6780		18.23						
+USGS	02472500	1980-04-13		21700		25.21						
+USGS	02472500	1981-03-30		3660		13.23						
+USGS	02472500	1982-02-17		3260		12.34						
+USGS	02472500	1983-04-07		22800		26.06						
+USGS	02472500	1983-12-28		4290		15.78						
+USGS	02472500	1985-08-17		7000		17.01						
+USGS	02472500	1985-10-29		7060		17.09						
+USGS	02472500	1987-03-01		10600		21.20						
+USGS	02472500	1988-09-04		3170		10.77						
+USGS	02472500	1989-01-01		7330		16.86						
+USGS	02472500	1990-05-14		33500		26.53						
+USGS	02472500	1991-04-30		8540		19.35						
+USGS	02472500	1992-02-16		4840		14.28						
+USGS	02472500	1993-01-21		7620		18.14						
+USGS	02472500	1994-01-29		11900		21.34						
+USGS	02472500	1995-04-23		3730		12.46						
+USGS	02472500	1996-03-07		3590		12.22						
+USGS	02472500	1997-04-29		9320		19.36						
+USGS	02472500	1998-01-07		9050		19.10						
+USGS	02472500	1999-03-14		7350		17.12						
+USGS	02472500	2000-04-04		1840		8.26						
+USGS	02472500	2001-03-04		13900		22.70						
+USGS	02472500	2001-12-14		3880		12.15						
+USGS	02472500	2003-02-24		8630		18.64						
+USGS	02472500	2004-02-13		6580		16.13						
+USGS	02472500	2005-04-01		12100		21.49						
+USGS	02472500	2006-02-26		2520		9.24						
+USGS	02472500	2006-12-31		4250		12.26						
+USGS	02472500	2008-09-03		3460		10.96						
+USGS	02472500	2009-03-28		9140		18.72						
+USGS	02472500	2009-12-18	19:15	5950		14.94						
+USGS	02472500	2011-03-10	10:30	9340		18.93						
+USGS	02472500	2012-08-31	06:00	10000		19.64						
+USGS	02472500	2013-02-13	01:30	9460		19.06						
+USGS	02472500	2014-02-21	16:45	7150		16.42						
+USGS	02472500	2015-01-05	09:30	6360		15.46						
+USGS	02472500	2016-03-12	04:00	27100		26.13						
+USGS	02472500	2017-06-06	12:30	5690		14.59						
+USGS	02472500	2018-04-15	12:00	4140		12.39						
+USGS	02472500	2018-12-28	20:00	12300		21.60						

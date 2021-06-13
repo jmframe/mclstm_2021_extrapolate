@@ -1,0 +1,106 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:16:34 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 06906800 Lamine River near Otterville, MO
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	06906800	1988-04-02		24400		19.92						
+USGS	06906800	1989-08-21		6940		11.90						
+USGS	06906800	1990-05-16		50600		26.55						
+USGS	06906800	1991-05-13		22400		21.18						
+USGS	06906800	1992-02-15		5960		11.46						
+USGS	06906800	1993-07-07		63700		27.81						
+USGS	06906800	1994-04-11		64800		27.98						
+USGS	06906800	1995-05-18		84900		29.43						
+USGS	06906800	1996-07-21		27600		22.99						
+USGS	06906800	1997-02-21		32700		24.14						
+USGS	06906800	1998-07-26		40700		25.50						
+USGS	06906800	1999-05-05	02:00	24300		22.04						
+USGS	06906800	2000-05-27	14:00	12400		16.26						
+USGS	06906800	2001-06-06		23200		21.65						
+USGS	06906800	2002-05-09		22200		21.25						
+USGS	06906800	2003-05-04		9490		14.16						
+USGS	06906800	2004-03-05		20800		20.67						
+USGS	06906800	2005-01-05	17:45	21300		20.91						
+USGS	06906800	2006-04-30	09:00	2700		8.22						
+USGS	06906800	2007-06-30		14700		17.67						
+USGS	06906800	2008-09-14		35400		24.63						
+USGS	06906800	2009-06-17		21900		21.16						
+USGS	06906800	2009-10-09		26000		22.55						
+USGS	06906800	2011-05-21		17800		19.31						
+USGS	06906800	2012-04-14		18500		19.63						
+USGS	06906800	2013-06-01		21000		20.80						
+USGS	06906800	2014-04-04		20200		20.42						
+USGS	06906800	2015-07-02	18:30	26300		22.62						
+USGS	06906800	2015-12-27	11:15	22300		21.31						
+USGS	06906800	2017-04-30	11:02	32600		24.12						
+USGS	06906800	2018-06-27	00:30	8590		14.83						
+USGS	06906800	2019-05-22	03:00	19200		21.00						

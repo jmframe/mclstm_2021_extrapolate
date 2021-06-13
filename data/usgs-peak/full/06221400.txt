@@ -1,0 +1,126 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2020-09-22 16:15:24 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 06221400 DINWOODY CREEK ABOVE LAKES, NEAR BURRIS, WY
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	06221400	1958-05-24		737		4.08						
+USGS	06221400	1959-06-25		876		4.17						
+USGS	06221400	1960-06-17		708		4.05						
+USGS	06221400	1961-06-20		740		4.05						
+USGS	06221400	1962-06-27		868		4.17						
+USGS	06221400	1963-06-16		1270		4.57						
+USGS	06221400	1964-07-11		805		4.20						
+USGS	06221400	1965-06-23		1020		4.40						
+USGS	06221400	1966-06-22		916		4.31						
+USGS	06221400	1967-06-23		962		4.35						
+USGS	06221400	1968-08-10		916		4.35						
+USGS	06221400	1969-07-17		800		4.14						
+USGS	06221400	1970-06-28		1160		4.44						
+USGS	06221400	1971-06-18		1400		4.57						
+USGS	06221400	1972-06-05		840		4.18						
+USGS	06221400	1973-09-11		1000		4.26						
+USGS	06221400	1974-06-18		932		4.22						
+USGS	06221400	1975-07-06		1130		4.34						
+USGS	06221400	1976-08-01		917		4.19						
+USGS	06221400	1977-07-25		1450		4.44						
+USGS	06221400	1978-06-25		960		4.16						
+USGS	06221400	1989-07-07		676		3.79						
+USGS	06221400	1990-07-03		812		3.83						
+USGS	06221400	1991-06-13		913		4.03						
+USGS	06221400	1992-06-25		562		3.69	2		1991-12-25		4.03	1
+USGS	06221400	1993-06-22		599		3.73						
+USGS	06221400	1994-06-23		485		3.59						
+USGS	06221400	1995-07-13		1510		4.50						
+USGS	06221400	1996-07-06		845		3.92						
+USGS	06221400	1997-06-09		1490		4.35						
+USGS	06221400	1998-07-13		1040		3.93						
+USGS	06221400	1999-06-22		1300		4.08						
+USGS	06221400	2000-05-24		527		3.61						
+USGS	06221400	2001-07-07		545		3.66						
+USGS	06221400	2002-06-01		680		3.68						
+USGS	06221400	2003-09-09		1260	3	4.10						
+USGS	06221400	2004-06-30		1530		4.24						
+USGS	06221400	2005-06-23		926		3.90						
+USGS	06221400	2006-06-10	00:30	703		3.73						
+USGS	06221400	2007-07-27	04:15	547		3.65						
+USGS	06221400	2008-07-03	06:00	852		3.84						
+USGS	06221400	2009-06-27		838		3.89	2		2008-12-18		3.94	1
+USGS	06221400	2010-06-05		1180		4.09						
+USGS	06221400	2011-06-30		1140		4.07						
+USGS	06221400	2012-06-04		913		3.94						
+USGS	06221400	2013-08-02		1100		4.06						
+USGS	06221400	2014-05-30	03:00	795		3.86	2		2013-12-08	0815	4.30	1
+USGS	06221400	2015-06-16	12:45	1010		3.99						
+USGS	06221400	2016-06-07		945		3.93						
+USGS	06221400	2017-06-17	17:15	3550		4.82						
+USGS	06221400	2018-06-18	18:45	1610		4.35						
+USGS	06221400	2019-06-08	07:45	1800		4.39						
