@@ -1,3 +1,7 @@
+
+results/model_output_for_analysis/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

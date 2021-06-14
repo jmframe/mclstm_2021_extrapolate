@@ -12,3 +12,6 @@ Contents:
     - paper_figures.ipynb
     - paper_table.ipynb
     - results_analysis.ipynb
+
+# Notes about this repository
+- The Pickle files were generated using XArray 0.16.1
