@@ -1,5 +1,5 @@
-# On mass conservation and extrapolation of long short-term memory networks
-Code and models for the HESS paper on mass conservation and extrapolation with deep learning
+# Deep learning rainfall-runoff predictions of extreme events
+Code and models for the HESS paper on mass conservation and extrapolation to low probability runoff events with deep learning
 
 Contents:
 - **neuralhydrology**: deep learning codebase (https://neuralhydrology.readthedocs.io/en/latest/) that includes both the LSTM and MC-LSTM used in this paper
